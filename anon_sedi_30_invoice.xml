@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<S-EDI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <RoutingInfo Factoring="false" Receipt2="true" Test="false" TestFactoring="false">
+    <SenderId1>111111111</SenderId1>
+    <SenderId2/>
+    <ReceiverId1>111111111</ReceiverId1>
+    <ReceiverId2 xsi:nil="true"/>
+    <ReceiverId3 xsi:nil="true"/>
+    <DocumentType>Invoice</DocumentType>
+    <OutputMedia>Emedia</OutputMedia>
+    <Version>S-EDI_3_0</Version>
+    <OriginalFileVersion xsi:nil="true"/>
+    <MessageId>cfed807d4c6b45589d0632daa9ef58d3</MessageId>
+    <SenderServiceProviderId xsi:nil="true"/>
+    <ReceiverServiceProviderId xsi:nil="true"/>
+  </RoutingInfo>
+  <Invoice>
+    <Header>
+      <Created>2015-12-16T11:11:04</Created>
+      <ProgramVersion>ProgramVersion</ProgramVersion>
+      <PrintInfo>
+        <Layout Copy="0" Export="false" Language="NO" Original="1" xsi:nil="true"/>
+        <Postage>A</Postage>
+        <FreeText xsi:nil="true"/>
+      </PrintInfo>
+      <LegislationReference>
+        <VATIncluded>VATEXCL-NO</VATIncluded>
+        <EUInfo xsi:nil="true"/>
+        <FTaxStatement xsi:nil="true"/>
+        <VATReference xsi:nil="true"/>
+      </LegislationReference>
+      <InvoiceNo>77120</InvoiceNo>
+      <ContraEntryNo xsi:nil="true"/>
+      <InvoiceDate>2015-12-16</InvoiceDate>
+      <PeriodStart xsi:nil="true"/>
+      <PeriodEnd xsi:nil="true"/>
+      <OriginalInvoiceDate xsi:nil="true"/>
+      <DueDate>2016-01-15</DueDate>
+      <SellerOrderNo>SellerOrderNo</SellerOrderNo>
+      <BuyerOrderNo>BuyerOrderNo</BuyerOrderNo>
+      <DeliveryNoteNo>DeliveryNoteNo</DeliveryNoteNo>
+      <OrderDate>2015-12-03</OrderDate>
+      <DeliveryDate xsi:nil="true"/>
+      <EstimatedShipmentDate>2015-12-14</EstimatedShipmentDate>
+      <ShipmentDate>2015-12-16</ShipmentDate>
+      <PaymentTerms Code="3">NETTO PR 30 DAGER</PaymentTerms>
+      <DeliveryTerms Code="4">DeliveryTerms</DeliveryTerms>
+      <DeliveryMethod Code="2">DeliveryMethod</DeliveryMethod>
+      <CustomerNumber>CustomerNumber</CustomerNumber>
+      <Interest>0.81</Interest>
+      <DaysBeforeInterest>2</DaysBeforeInterest>
+      <ReminderCharge>0.00</ReminderCharge>
+      <OfferNo xsi:nil="true"/>
+      <PaymentReference>123456</PaymentReference>
+      <SellerContractNo xsi:nil="true"/>
+      <SellerContractDesc xsi:nil="true"/>
+      <PriceListNo xsi:nil="true"/>
+      <DiscountContractNo xsi:nil="true"/>
+      <SellerParty>
+        <Name>Name</Name>
+        <Address1>Address1</Address1>
+        <Address2>Address2</Address2>
+        <VisitingAddress>VisitingAddress</VisitingAddress>
+        <PostCode>PostCode</PostCode>
+        <PostOffice>PostOffice</PostOffice>
+        <CountryCode>NO</CountryCode>
+        <Country>NORGE</Country>
+        <Reference>Reference</Reference>
+        <CompanyNo>CompanyNo</CompanyNo>
+        <EANLocationNo xsi:nil="true"/>
+        <AlternativeSellerId xsi:nil="true"/>
+        <BankAccount>BankAccount</BankAccount>
+        <PostAccount>PostAccount</PostAccount>
+        <BankAccountNo>BankAccountNo</BankAccountNo>
+        <Telephone>Telephone</Telephone>
+        <Telephone2>Telephone2</Telephone2>
+        <Telephone3>Telephone3</Telephone3>
+        <Telefax>Telefax</Telefax>
+        <Email>Email</Email>
+        <www>www</www>
+        <VATRegNo xsi:nil="true"/>
+        <RegistredOffice xsi:nil="true"/>
+        <Bank>DNB Bank ASA</Bank>
+        <BankIdentificationCode>DNBANOKKXXX</BankIdentificationCode>
+        <IBAN>IBAN</IBAN>
+        <BankCountryCode>NO</BankCountryCode>
+        <BankId xsi:nil="true"/>
+        <BankAddress>BankAddress</BankAddress>
+        <BankAddress2>BankAddress2</BankAddress2>
+        <BankPostCode>BankPostCode</BankPostCode>
+        <BankPostOffice>BankPostOffice</BankPostOffice>
+      </SellerParty>
+      <BuyerParty>
+        <InvoiceAddress>
+          <Name>Name</Name>
+          <Address1>Address1</Address1>
+          <Address2>Address2</Address2>
+          <VisitingAddress>VisitingAddress</VisitingAddress>
+          <PostCode>PostCode</PostCode>
+          <PostOffice>PostOffice</PostOffice>
+          <CountryCode>NO</CountryCode>
+          <Country>NORGE</Country>
+          <Reference>Reference</Reference>
+          <CompanyNo>CompanyNo</CompanyNo>
+          <EANLocationNo xsi:nil="true"/>
+          <AlternativeBuyerId xsi:nil="true"/>
+          <BankAccount>BankAccount</BankAccount>
+          <PostAccount>PostAccount</PostAccount>
+          <BankAccountNo>BankAccountNo</BankAccountNo>
+          <Telephone>Telephone</Telephone>
+          <Telephone2>Telephone2</Telephone2>
+          <Telephone3>Telephone3</Telephone3>
+          <Telefax>Telefax</Telefax>
+          <Email>Email</Email>
+          <www>www</www>
+          <VATRegNo xsi:nil="true"/>
+          <RegistredOffice xsi:nil="true"/>
+          <BankId xsi:nil="true"/>
+        </InvoiceAddress>
+        <DeliveryAddress>
+          <Name>Name</Name>
+          <Address1>Address1</Address1>
+          <Address2>Address2</Address2>
+          <VisitingAddress>VisitingAddress</VisitingAddress>
+          <PostCode>PostCode</PostCode>
+          <PostOffice>PostOffice</PostOffice>
+          <CountryCode>NO</CountryCode>
+          <Country>NORGE</Country>
+          <EANLocationNo xsi:nil="true"/>
+          <Telephone>Telephone</Telephone>
+          <Telephone2>Telephone2</Telephone2>
+          <Telephone3>Telephone3</Telephone3>
+          <Telefax>Telefax</Telefax>
+        </DeliveryAddress>
+      </BuyerParty>
+    </Header>
+    <Detail>
+      <ArticleRow>
+        <LineNo>1</LineNo>
+        <SellerArticleNo>SellerArticleNo</SellerArticleNo>
+        <BuyerArticleNo>BuyerArticleNo</BuyerArticleNo>
+        <AlternativeArticleNo Type="EN">AlternativeArticleNo</AlternativeArticleNo>
+        <ArticleDescription>ArticleDescription</ArticleDescription>
+        <AlternativeDescription>AlternativeDescription</AlternativeDescription>
+        <QuantityOrdered>20.00</QuantityOrdered>
+        <Unit Code="" xsi:nil="true"/>
+        <UnitPrice>1347.00</UnitPrice>
+        <SumOfLineExcDiscAndVAT>26940.00</SumOfLineExcDiscAndVAT>
+        <TotalLineDiscountAmount>0.00</TotalLineDiscountAmount>
+        <TotalLineDiscountPercent>0.00</TotalLineDiscountPercent>
+        <DiscountAmountPerUnit>0.00</DiscountAmountPerUnit>
+        <UnitPriceDiscDeducted>1347.00</UnitPriceDiscDeducted>
+        <SumOfLine>26940.00</SumOfLine>
+        <VATPercentage>25.00</VATPercentage>
+        <VATAmount>6735.00</VATAmount>
+        <SumOfLineInclVAT>33675.00</SumOfLineInclVAT>
+        <QuantityDelivered>20.00</QuantityDelivered>
+        <QuantityRemainder>0.00</QuantityRemainder>
+        <DateRemainder xsi:nil="true"/>
+        <SellerOrderNo>SellerOrderNo</SellerOrderNo>
+        <BuyerOrderNo>BuyerOrderNo</BuyerOrderNo>
+        <BuyerOrderLineNo xsi:nil="true"/>
+        <SerialNo xsi:nil="true"/>
+        <BatchNo xsi:nil="true"/>
+        <DeliveryNoteNo>DeliveryNoteNo</DeliveryNoteNo>
+        <BestBeforeDate xsi:nil="true"/>
+        <DeliveryDate xsi:nil="true"/>
+        <EstimatedShipmentDate>2015-12-03</EstimatedShipmentDate>
+        <ShipmentDate>2015-12-16</ShipmentDate>
+        <CountryOfOriginCode>NO</CountryOfOriginCode>
+        <CountryOfOrigin>NORGE</CountryOfOrigin>
+      </ArticleRow>
+      <ArticleRow>
+        <LineNo>2</LineNo>
+        <SellerArticleNo>SellerArticleNo</SellerArticleNo>
+        <BuyerArticleNo>BuyerArticleNo</BuyerArticleNo>
+        <AlternativeArticleNo Type="EN">AlternativeArticleNo</AlternativeArticleNo>
+        <ArticleDescription>ArticleDescription</ArticleDescription>
+        <AlternativeDescription>AlternativeDescription</AlternativeDescription>
+        <QuantityOrdered>1.00</QuantityOrdered>
+        <Unit Code="" xsi:nil="true"/>
+        <UnitPrice>269.40</UnitPrice>
+        <SumOfLineExcDiscAndVAT>269.40</SumOfLineExcDiscAndVAT>
+        <TotalLineDiscountAmount>0.00</TotalLineDiscountAmount>
+        <TotalLineDiscountPercent>0.00</TotalLineDiscountPercent>
+        <DiscountAmountPerUnit>0.00</DiscountAmountPerUnit>
+        <UnitPriceDiscDeducted>269.40</UnitPriceDiscDeducted>
+        <SumOfLine>269.40</SumOfLine>
+        <VATPercentage>25.00</VATPercentage>
+        <VATAmount>67.35</VATAmount>
+        <SumOfLineInclVAT>336.75</SumOfLineInclVAT>
+        <QuantityDelivered>1.00</QuantityDelivered>
+        <QuantityRemainder>0.00</QuantityRemainder>
+        <DateRemainder xsi:nil="true"/>
+        <SellerOrderNo>SellerOrderNo</SellerOrderNo>
+        <BuyerOrderNo>BuyerOrderNo</BuyerOrderNo>
+        <BuyerOrderLineNo xsi:nil="true"/>
+        <SerialNo xsi:nil="true"/>
+        <BatchNo xsi:nil="true"/>
+        <DeliveryNoteNo>DeliveryNoteNo</DeliveryNoteNo>
+        <BestBeforeDate xsi:nil="true"/>
+        <DeliveryDate xsi:nil="true"/>
+        <EstimatedShipmentDate>2015-12-03</EstimatedShipmentDate>
+        <ShipmentDate>2015-12-16</ShipmentDate>
+        <CountryOfOriginCode>NO</CountryOfOriginCode>
+        <CountryOfOrigin>NORGE</CountryOfOrigin>
+      </ArticleRow>
+    </Detail>
+    <Summary>
+      <Currency>
+        <CurrencyCode>NOK</CurrencyCode>
+        <ExchangeRate>1.000000</ExchangeRate>
+        <ExchangeRateDate>2015-12-16</ExchangeRateDate>
+        <RateEntity>1</RateEntity>
+        <CurrencyCodeAC>NOK</CurrencyCodeAC>
+        <ExchangeRateAC>1.000000</ExchangeRateAC>
+        <RateEntityAC>1</RateEntityAC>
+      </Currency>
+      <VAT>
+        <VATSpecification>
+          <VATPercentage>25.00</VATPercentage>
+          <VATAmount>6802.35</VATAmount>
+          <VATBasisAmount>27209.40</VATBasisAmount>
+          <VATAmountAC>6802.35</VATAmountAC>
+          <VATBasisAmountAC>27209.40</VATBasisAmountAC>
+        </VATSpecification>
+      </VAT>
+      <DiscountAndCharges>
+        <TotalLinesDiscount>0.00</TotalLinesDiscount>
+        <TotalAdditionAmount>0.00</TotalAdditionAmount>
+        <TotalDeductionAmount>0.00</TotalDeductionAmount>
+        <TotalAdditionAndDeductionAmount>0.00</TotalAdditionAndDeductionAmount>
+        <SumOfInvoiceDiscountAndCharges>0.00</SumOfInvoiceDiscountAndCharges>
+        <VATInvoiceDiscountAndCharges>
+          <VATInvoiceDiscountAndChargesSpecification>
+            <VATFreightPercentage>25.00</VATFreightPercentage>
+            <VATFreightAmount>0.00</VATFreightAmount>
+            <VATFreightBasisAmount>0.00</VATFreightBasisAmount>
+            <VATFreightAmountAC>0.00</VATFreightAmountAC>
+            <VATFreightBasisAmountAC>0.00</VATFreightBasisAmountAC>
+            <VATHandlingChargePercentage>25.00</VATHandlingChargePercentage>
+            <VATHandlingChargeAmount>0.00</VATHandlingChargeAmount>
+            <VATHandlingChargeBasisAmount>0.00</VATHandlingChargeBasisAmount>
+            <VATHandlingChargeAmountAC>0.00</VATHandlingChargeAmountAC>
+            <VATHandlingChargeBasisAmountAC>0.00</VATHandlingChargeBasisAmountAC>
+            <VATInvoiceDiscountPercentage>25.00</VATInvoiceDiscountPercentage>
+            <VATInvoiceDiscountAmount>0.00</VATInvoiceDiscountAmount>
+            <VATInvoiceDiscountBasisAmount>0.00</VATInvoiceDiscountBasisAmount>
+            <VATInvoiceDiscountAmountAC>0.00</VATInvoiceDiscountAmountAC>
+            <VATInvoiceDiscountBasisAmountAC>0.00</VATInvoiceDiscountBasisAmountAC>
+          </VATInvoiceDiscountAndChargesSpecification>
+        </VATInvoiceDiscountAndCharges>
+      </DiscountAndCharges>
+      <NoOfLines>2</NoOfLines>
+      <SumOfLines>27209.40</SumOfLines>
+      <InvoiceDiscountPerc>0.00</InvoiceDiscountPerc>
+      <InvoiceDiscountAmount>0.00</InvoiceDiscountAmount>
+      <Net>27209.40</Net>
+      <Freight>0.00</Freight>
+      <HandlingCharge>0.00</HandlingCharge>
+      <SumOfQuantity>21.00</SumOfQuantity>
+      <TotalAmountExclVAT>27209.40</TotalAmountExclVAT>
+      <VATAmount>6802.35</VATAmount>
+      <VATAmountAC>6802.35</VATAmountAC>
+      <TotalAmountNotRounded>34011.75</TotalAmountNotRounded>
+      <RoundingAmount>0.25</RoundingAmount>
+      <TotalAmount>34012.00</TotalAmount>
+      <TotalAmountCheckSum>5</TotalAmountCheckSum>
+    </Summary>
+  </Invoice>
+</S-EDI>

@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Liinos_XML DocId="10" Case="">
+  <Definition>
+    <ThousandSeparator/>
+    <DecimalSeparator>.</DecimalSeparator>
+    <TimeSeparator>:</TimeSeparator>
+  </Definition>
+  <Data DocType="" WebUi="">
+    <ContractNumber>ContractNumber</ContractNumber>
+    <ServiceId/>
+    <ControlId/>
+    <ModelId/>
+    <Header Type="">
+      <Numbers>
+        <Number Type="1">
+          <Num>Num</Num>
+        </Number>
+      </Numbers>
+      <References>
+        <Reference Type="CO">
+          <TypeName>TypeName</TypeName>
+          <Ref>Ref</Ref>
+        </Reference>
+        <Reference Type="CR">
+          <TypeName>TypeName</TypeName>
+          <Ref>Ref</Ref>
+        </Reference>
+        <Reference Type="PQ">
+          <TypeName>TypeName</TypeName>
+          <Ref>Ref</Ref>
+        </Reference>
+        <Reference Type="BBC">
+          <TypeName>TypeName</TypeName>
+          <Ref>Ref</Ref>
+        </Reference>
+        <Reference Type="PID">
+          <TypeName>TypeName</TypeName>
+          <Ref>Ref</Ref>
+        </Reference>
+        <Reference Type="AEL">
+          <TypeName>TypeName</TypeName>
+          <Ref>Ref</Ref>
+        </Reference>
+      </References>
+      <Texts>
+        <Text Type="1">
+          <Txt>Txt</Txt>
+        </Text>
+      </Texts>
+      <Terms>
+        <Term Type="1">
+          <Code>1</Code>
+          <Txt>Txt</Txt>
+        </Term>
+      </Terms>
+      <Dates>
+        <Date Type="1">
+          <TypeName>TypeName</TypeName>
+          <Txt>Txt</Txt>
+          <Day>15</Day>
+          <Month>12</Month>
+          <Year>2004</Year>
+        </Date>
+        <Date Type="2">
+          <TypeName>TypeName</TypeName>
+          <Txt>Txt</Txt>
+          <Day>15</Day>
+          <Month>12</Month>
+          <Year>2004</Year>
+        </Date>
+        <Date Type="3">
+          <TypeName>TypeName</TypeName>
+          <Txt>Txt</Txt>
+          <Day>29</Day>
+          <Month>12</Month>
+          <Year>2004</Year>
+        </Date>
+        <Date Type="4">
+          <TypeName>TypeName</TypeName>
+          <Txt>Txt</Txt>
+          <Day/>
+          <Month/>
+          <Year/>
+        </Date>
+      </Dates>
+      <Summaries>
+        <Currency>EUR</Currency>
+        <ExchangeRate/>
+        <Summary Type="1">
+          <Sum>3352.98</Sum>
+        </Summary>
+        <Summary Type="2">
+          <Sum>2830.30</Sum>
+        </Summary>
+        <Summary Type="3">
+          <Sum>522.68</Sum>
+        </Summary>
+      </Summaries>
+      <Taxes>
+        <Vat VatCode="S">
+          <VatPercentage>18</VatPercentage>
+          <VatSum>522.68</VatSum>
+          <TotalExclVat>2830.30</TotalExclVat>
+        </Vat>
+      </Taxes>
+      <Percentages>
+        <Percentage Type="1">
+          <Perc>0.00</Perc>
+        </Percentage>
+        <Percentage Type="2">
+          <Perc>16.0</Perc>
+        </Percentage>
+      </Percentages>
+    </Header>
+    <Parties>
+      <Party Type="IV">
+        <PartyIds>
+          <PartyId Type="1">
+            <Id>1234567-8</Id>
+          </PartyId>
+          <PartyId Type="5">
+            <Id>FI12345678</Id>
+          </PartyId>
+        </PartyIds>
+        <Name>Name</Name>
+        <Name2>Name2</Name2>
+        <PostalAddress>PostalAddress</PostalAddress>
+        <StreetAddress>StreetAddress</StreetAddress>
+        <PostalNumber>PostalNumber</PostalNumber>
+        <PostalLocation>PostalLocation</PostalLocation>
+        <Country>FI</Country>
+        <CountryName/>
+        <Language>fi</Language>
+        <Concern/>
+        <ContactNumbers>
+          <ContactNumber Type="TE">
+            <TypeName>TypeName</TypeName>
+            <Num>Num</Num>
+          </ContactNumber>
+          <ContactNumber Type="EM">
+            <TypeName>TypeName</TypeName>
+            <Num>Num</Num>
+          </ContactNumber>
+          <ContactNumber Type="WEB">
+            <TypeName>TypeName</TypeName>
+            <Num>Num</Num>
+          </ContactNumber>
+        </ContactNumbers>
+        <ContactPersons>
+          <ContactPerson Type="PE">
+            <PersonName>PersonName</PersonName>
+            <ContactNumbers>
+              <ContactNumber Type="EM">
+                  <TypeName>TypeName</TypeName>
+                  <Num>Num</Num>
+              </ContactNumber>
+              <ContactNumber Type="TE">
+                <TypeName>TypeName</TypeName>
+                <Num>Num</Num>
+              </ContactNumber>
+              <ContactNumber Type="WEB">
+                <TypeName>TypeName</TypeName>
+                <Num>Num</Num>
+              </ContactNumber>
+            </ContactNumbers>
+          </ContactPerson>
+        </ContactPersons>
+      </Party>
+      <Party Type="SE">
+        <PartyIds>
+          <PartyId Type="1">
+            <Id/>
+          </PartyId>
+          <PartyId Type="2">
+            <Id>0199920-7</Id>
+          </PartyId>
+          <PartyId Type="5">
+            <Id>FI01999207</Id>
+          </PartyId>
+        </PartyIds>
+        <Name>Name</Name>
+        <Name2>Name2</Name2>
+        <PostalAddress>PostalAddress</PostalAddress>
+        <StreetAddress>StreetAddress</StreetAddress>
+        <PostalNumber>PostalNumber</PostalNumber>
+        <PostalLocation>PostalLocation</PostalLocation>
+        <Country>FI</Country>
+        <CountryName/>
+        <Language>fi</Language>
+        <Concern/>
+        <Domicile>Helsinki</Domicile>
+        <ContactNumbers>
+          <ContactNumber Type="TE">
+            <TypeName>TypeName</TypeName>
+            <Num>Num</Num>
+          </ContactNumber>
+          <ContactNumber Type="EM">
+            <TypeName>TypeName</TypeName>
+            <Num>Num</Num>
+          </ContactNumber>
+          <ContactNumber Type="WEB">
+            <TypeName>TypeName</TypeName>
+            <Num>Num</Num>
+          </ContactNumber>
+        </ContactNumbers>
+        <BankAccounts>
+          <BankAccount>
+            <Bank>OKOYFIHH</Bank>
+            <AccountNumber>FI2757800750155448</AccountNumber>
+            <IbanAccountNumber>FI2757800750155448</IbanAccountNumber>
+            <IbanBic>OKOYFIHH</IbanBic>
+          </BankAccount>
+          <BankAccount>
+            <Bank>NDEAFIHH</Bank>
+            <AccountNumber>FI2721221222212227</AccountNumber>
+            <IbanAccountNumber>FI2721221222212227</IbanAccountNumber>
+            <IbanBic>NDEAFIHH</IbanBic>
+          </BankAccount>
+          <BankAccount>
+            <Bank>PSPBFIHH</Bank>
+            <AccountNumber>FI2781232323312334</AccountNumber>
+            <IbanAccountNumber>FI2781232323312334</IbanAccountNumber>
+            <IbanBic>PSPBFIHH</IbanBic>
+          </BankAccount>
+        </BankAccounts>
+        <ContactPersons>
+          <ContactPerson Type="PB">
+            <PersonName>PersonName</PersonName>
+          </ContactPerson>
+        </ContactPersons>
+      </Party>
+    </Parties>
+    <Rows>
+      <Row Type="" RowNumber="-1" Case="10" Locked="">
+        <RowRec/>
+        <ControlId/>
+        <ControlNumber/>
+        <AllocationRule>ALL</AllocationRule>
+        <AllocationText/>
+        <UsingLevel/>
+        <UsingLevelText/>
+        <ItemInfo>
+          <ItemId Type="IN">
+            <Code>123123</Code>
+          </ItemId>
+          <Description Type="1">
+            <Desc>Desc</Desc>
+          </Description>
+        </ItemInfo>
+        <Units Type="4">
+          <PriceUnit>kpl</PriceUnit>
+          <PriceQuantity>10.0</PriceQuantity>
+        </Units>
+        <Postings>
+          <Posting Type="1">
+            <OrderNumber/>
+            <LineNumber/>
+            <Currency>EUR</Currency>
+            <UnitPriceExclVat>28.69</UnitPriceExclVat>
+            <UnitPriceInclVat>35.0018</UnitPriceInclVat>
+            <TotalExclVat>286.90</TotalExclVat>
+            <TotalInclVat>350.02</TotalInclVat>
+            <VatCode>S</VatCode>
+            <VatPercentage>22.0</VatPercentage>
+            <MainNumber/>
+            <MainNumberName/>
+            <SubNumber/>
+            <SubNumberName/>
+            <Letter/>
+            <LetterName/>
+            <AccountNumber/>
+            <AccountNumberName/>
+            <CostType>2</CostType>
+            <Stock/>
+            <Shelf/>
+            <Salesman/>
+            <SalesmanName/>
+            <BusinessUnit/>
+            <BusinessUnitName>BusinessUnitName</BusinessUnitName>
+            <Sba/>
+            <SbaName/>
+            <CostCenter/>
+            <CostCenterName/>
+            <Country/>
+          </Posting>
+        </Postings>
+        <Texts>
+          <Text Type="2">
+            <Txt>Txt</Txt>
+          </Text>
+        </Texts>
+        <References>
+          <Reference Type="AEL">
+            <TypeName>TypeName</TypeName>
+            <Ref>Ref</Ref>
+          </Reference>
+        </References>
+      </Row>
+      <Row Type="" RowNumber="-1" Case="10" Locked="">
+        <RowRec/>
+        <ControlId/>
+        <ControlNumber/>
+        <AllocationRule>ALL</AllocationRule>
+        <AllocationText/>
+        <UsingLevel/>
+        <UsingLevelText/>
+        <ItemInfo>
+          <ItemId Type="IN">
+            <Code>8768217637</Code>
+          </ItemId>
+          <Description Type="1">
+            <Desc>Desc</Desc>
+          </Description>
+        </ItemInfo>
+        <Units Type="4">
+          <PriceUnit>kpl</PriceUnit>
+          <PriceQuantity>120.0</PriceQuantity>
+        </Units>
+        <Postings>
+          <Posting Type="1">
+            <OrderNumber/>
+            <LineNumber/>
+            <Currency>EUR</Currency>
+            <UnitPriceExclVat>1.64</UnitPriceExclVat>
+            <UnitPriceInclVat>2.0008</UnitPriceInclVat>
+            <TotalExclVat>196.80</TotalExclVat>
+            <TotalInclVat>240.10</TotalInclVat>
+            <VatCode>S</VatCode>
+            <VatPercentage>22.0</VatPercentage>
+            <MainNumber/>
+            <MainNumberName/>
+            <SubNumber/>
+            <SubNumberName/>
+            <Letter/>
+            <LetterName/>
+            <AccountNumber/>
+            <AccountNumberName/>
+            <CostType>2</CostType>
+            <Stock/>
+            <Shelf/>
+            <Salesman/>
+            <SalesmanName/>
+            <BusinessUnit/>
+            <BusinessUnitName>BusinessUnitName</BusinessUnitName>
+            <Sba/>
+            <SbaName/>
+            <CostCenter/>
+            <CostCenterName/>
+            <Country/>
+          </Posting>
+        </Postings>
+        <Texts>
+          <Text Type="2">
+            <Txt>Txt</Txt>
+          </Text>
+        </Texts>
+      </Row>
+      <Row Type="" RowNumber="-1" Case="10" Locked="">
+        <RowRec/>
+        <ControlId/>
+        <ControlNumber/>
+        <AllocationRule>ALL</AllocationRule>
+        <AllocationText/>
+        <UsingLevel/>
+        <UsingLevelText/>
+        <ItemInfo>
+          <ItemId Type="IN">
+            <Code>213123123123</Code>
+          </ItemId>
+          <Description Type="1">
+            <Desc>Desc</Desc>
+          </Description>
+        </ItemInfo>
+        <Units Type="4">
+          <PriceUnit>l</PriceUnit>
+          <PriceQuantity>100.0</PriceQuantity>
+        </Units>
+        <Postings>
+          <Posting Type="1">
+            <OrderNumber/>
+            <LineNumber/>
+            <Currency>EUR</Currency>
+            <UnitPriceExclVat>0.65</UnitPriceExclVat>
+            <UnitPriceInclVat>0.793</UnitPriceInclVat>
+            <TotalExclVat>65.00</TotalExclVat>
+            <TotalInclVat>79.30</TotalInclVat>
+            <VatCode>S</VatCode>
+            <VatPercentage>22.0</VatPercentage>
+            <MainNumber/>
+            <MainNumberName/>
+            <SubNumber/>
+            <SubNumberName/>
+            <Letter/>
+            <LetterName/>
+            <AccountNumber/>
+            <AccountNumberName/>
+            <CostType>2</CostType>
+            <Stock/>
+            <Shelf/>
+            <Salesman/>
+            <SalesmanName/>
+            <BusinessUnit/>
+            <BusinessUnitName>BusinessUnitName</BusinessUnitName>
+            <Sba/>
+            <SbaName/>
+            <CostCenter/>
+            <CostCenterName/>
+            <Country/>
+          </Posting>
+        </Postings>
+        <Texts>
+          <Text Type="2">
+            <Txt>Txt</Txt>
+          </Text>
+        </Texts>
+      </Row>
+      <Row Type="" RowNumber="-1" Case="10" Locked="">
+        <RowRec/>
+        <ControlId/>
+        <ControlNumber/>
+        <AllocationRule>ALL</AllocationRule>
+        <AllocationText/>
+        <UsingLevel/>
+        <UsingLevelText/>
+        <ItemInfo>
+          <ItemId Type="IN">
+            <Code>44213213</Code>
+          </ItemId>
+          <Description Type="1">
+            <Desc>Desc</Desc>
+          </Description>
+        </ItemInfo>
+        <Units Type="4">
+          <PriceUnit>kpl</PriceUnit>
+          <PriceQuantity>12.0</PriceQuantity>
+        </Units>
+        <Postings>
+          <Posting Type="1">
+            <OrderNumber/>
+            <LineNumber/>
+            <Currency>EUR</Currency>
+            <UnitPriceExclVat>192.62</UnitPriceExclVat>
+            <UnitPriceInclVat>234.9964</UnitPriceInclVat>
+            <DiscountPercentage>-2.0</DiscountPercentage>
+            <TotalExclVat>2265.21</TotalExclVat>
+            <TotalInclVat>2763.56</TotalInclVat>
+            <VatCode>S</VatCode>
+            <VatPercentage>22.0</VatPercentage>
+            <MainNumber/>
+            <MainNumberName/>
+            <SubNumber/>
+            <SubNumberName/>
+            <Letter/>
+            <LetterName/>
+            <AccountNumber/>
+            <AccountNumberName/>
+            <CostType>2</CostType>
+            <Stock/>
+            <Shelf/>
+            <Salesman/>
+            <SalesmanName/>
+            <BusinessUnit/>
+            <BusinessUnitName>BusinessUnitName</BusinessUnitName>
+            <Sba/>
+            <SbaName/>
+            <CostCenter/>
+            <CostCenterName/>
+            <Country/>
+          </Posting>
+        </Postings>
+        <Texts>
+          <Text Type="2">
+            <Txt>Txt</Txt>
+          </Text>
+        </Texts>
+      </Row>
+      <Row Type="" RowNumber="-1" Case="10" Locked="">
+        <RowRec/>
+        <ControlId/>
+        <ControlNumber/>
+        <AllocationRule>ALL</AllocationRule>
+        <AllocationText/>
+        <UsingLevel/>
+        <UsingLevelText/>
+        <ItemInfo>
+          <ItemId Type="IN">
+            <Code>8726817267</Code>
+          </ItemId>
+          <Description Type="1">
+            <Desc>Desc</Desc>
+          </Description>
+        </ItemInfo>
+        <Units Type="4">
+          <PriceUnit>kpl</PriceUnit>
+          <PriceQuantity>1.0</PriceQuantity>
+        </Units>
+        <Postings>
+          <Posting Type="1">
+            <OrderNumber/>
+            <LineNumber/>
+            <Currency>EUR</Currency>
+            <UnitPriceExclVat>16.39</UnitPriceExclVat>
+            <UnitPriceInclVat>19.9958</UnitPriceInclVat>
+            <TotalExclVat>16.39</TotalExclVat>
+            <TotalInclVat>20.00</TotalInclVat>
+            <VatCode>S</VatCode>
+            <VatPercentage>22.0</VatPercentage>
+            <MainNumber/>
+            <MainNumberName/>
+            <SubNumber/>
+            <SubNumberName/>
+            <Letter/>
+            <LetterName/>
+            <AccountNumber/>
+            <AccountNumberName/>
+            <CostType>2</CostType>
+            <Stock/>
+            <Shelf/>
+            <Salesman/>
+            <SalesmanName/>
+            <BusinessUnit/>
+            <BusinessUnitName>BusinessUnitName</BusinessUnitName>
+            <Sba/>
+            <SbaName/>
+            <CostCenter/>
+            <CostCenterName/>
+            <Country/>
+          </Posting>
+        </Postings>
+        <Texts>
+          <Text Type="2">
+            <Txt>Txt</Txt>
+          </Text>
+        </Texts>
+      </Row>
+    </Rows>
+  </Data>
+</Liinos_XML>

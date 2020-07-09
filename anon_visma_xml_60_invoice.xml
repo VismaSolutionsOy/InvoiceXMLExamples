@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="http://www.vismasoftware.com/edi/Xslt/VismaEdiInvoice60.xsl"?>
+<inv:Invoice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:inv="http://www.vismasoftware.com/EDI/Schemas/Invoice60" xsi:schemaLocation="http://www.vismasoftware.com/EDI/Schemas/Invoice60 http://www.vismasoftware.com/edi/Schema/VismaXMLInvoice60.xsd" format="Visma EDI Invoice" version="6.0" provider="Visma Software International AS" software="Global 9.00 Development">
+  <inv:InvoiceNumber>971008</inv:InvoiceNumber>
+  <inv:UniqueID>165d331c-4d62-4e99-aeda-a0b345f41d6e</inv:UniqueID>
+  <inv:MediaType>None</inv:MediaType>
+  <inv:CID>000100971008000110002</inv:CID>
+  <inv:InvoiceDate>2014-04-09</inv:InvoiceDate>
+  <inv:PaymentDate>2014-04-24</inv:PaymentDate>
+  <inv:PaymentTerms code="NET15/10:2%" paymentDays="15" discountPaymentDays="10" discountPercentage="2">PaymentTerms</inv:PaymentTerms>
+  <inv:PointOfSales id="1">PointOfSales</inv:PointOfSales>
+  <inv:Department id="1">Department</inv:Department>
+  <inv:Employee id="2">Employee</inv:Employee>
+  <inv:TotalGoodsGross>99.0</inv:TotalGoodsGross>
+  <inv:TotalGoodsExclDuty>99.00</inv:TotalGoodsExclDuty>
+  <inv:TotalSpecialDuty>10.00</inv:TotalSpecialDuty>
+  <inv:TotalDutyAmount>10.00</inv:TotalDutyAmount>
+  <inv:TotalGoodsInclDuty>109.00</inv:TotalGoodsInclDuty>
+  <inv:TotalLinesRoundingAmount>1.00</inv:TotalLinesRoundingAmount>
+  <inv:TotalGoods>110.00</inv:TotalGoods>
+  <inv:InvoiceDiscount>
+    <!--
+
+      As inv:InvoiceDiscountAmount and inv:InvoiceDiscountPercentage
+      are combination of invoice discount and other header level discounts values for both elements needs to be recalculated on ERP side.
+
+      In this case original invoices discount was percentage 10% and invoice discount amount 10.00 NOK + additional "cash discount" (not same
+      as defined in PaymentTerms) that was 2.00%. Basis amount is 100.00 NOK, due to in this case SpecialDuties cannot be discounted.
+
+    -->
+    <inv:DiscountPercentage>11.8</inv:DiscountPercentage>
+    <inv:DiscountBasisAmount>100</inv:DiscountBasisAmount>
+    <inv:DiscountAmount>11.8</inv:DiscountAmount>
+    <inv:VAT code="High">
+      <inv:VATAmount>1.475</inv:VATAmount>
+      <inv:VATPercentage>25</inv:VATPercentage>
+      <inv:VATBasisAmount>5.90</inv:VATBasisAmount>
+    </inv:VAT>
+    <inv:VAT code="Medium">
+      <inv:VATAmount>0.767</inv:VATAmount>
+      <inv:VATPercentage>13</inv:VATPercentage>
+      <inv:VATBasisAmount>5.90</inv:VATBasisAmount>
+    </inv:VAT>
+  </inv:InvoiceDiscount>
+  <inv:InvoiceFee VATCode="High" VATPercentage="25" VATAmount="6.25">25</inv:InvoiceFee>
+  <inv:HandlingCharge VATCode="High" VATPercentage="25" VATAmount="12.5">50</inv:HandlingCharge>
+  <inv:Postage VATCode="High" VATPercentage="25" VATAmount="37.5">150</inv:Postage>
+  <inv:FreightZoneAddition VATCode="High" VATPercentage="25" VATAmount="4.41">17.64</inv:FreightZoneAddition>
+  <inv:FreightZonePercent>20</inv:FreightZonePercent>
+  <inv:TotalFreight>167.64</inv:TotalFreight>
+  <inv:TotalDeductionAmount>11.80</inv:TotalDeductionAmount>
+  <inv:TotalAdditionAmount>252.64</inv:TotalAdditionAmount>
+  <inv:TotalAdditionAndDeductionAmount>240.84</inv:TotalAdditionAndDeductionAmount>
+  <inv:TotalAmountExclVAT>340.84</inv:TotalAmountExclVAT>
+  <inv:TotalVATAmount>78.72</inv:TotalVATAmount>
+  <inv:TotalVATBasisAmount>340.84</inv:TotalVATBasisAmount>
+  <inv:TotalVATFreeAmount>0.00</inv:TotalVATFreeAmount>
+  <inv:TotalAmountInclVAT>419.56</inv:TotalAmountInclVAT>
+  <inv:RoundingAmount>0.44</inv:RoundingAmount>
+  <inv:InvoiceTotalAmount>420.00</inv:InvoiceTotalAmount>
+  <inv:PrepaidAmount>0.00</inv:PrepaidAmount>
+  <inv:PayableAmount>420.00</inv:PayableAmount>
+  <inv:PaymentInstructions>
+    <inv:PaymentInstruction>
+      <inv:PaymentMeans code="31">Debit transfer</inv:PaymentMeans>
+      <inv:PaymentReference type="CID">PaymentReference</inv:PaymentReference>
+      <inv:PaymentDate>2014-04-24</inv:PaymentDate>
+      <inv:PayableAmount currency="NOK">420.00</inv:PayableAmount>
+      <inv:AccountNo type="BBAN">AccountNo</inv:AccountNo>
+      <inv:BankName>BankName</inv:BankName>
+      <inv:BankAddress1>BankAddress1</inv:BankAddress1>
+      <inv:BankPostCode>BankPostCode</inv:BankPostCode>
+      <inv:BankPostOffice>BankPostOffice</inv:BankPostOffice>
+      <inv:BankCountry>BankCountry</inv:BankCountry>
+      <inv:BankCountryCode>NO</inv:BankCountryCode>
+      <inv:BIC>NOR12345</inv:BIC>
+      <inv:BankCode>NO1234</inv:BankCode>
+    </inv:PaymentInstruction>
+    <inv:PaymentInstruction>
+      <inv:PaymentMeans code="31">Debit transfer</inv:PaymentMeans>
+      <inv:PaymentReference type="CID">PaymentReference</inv:PaymentReference>
+      <inv:PaymentDate>2014-04-25</inv:PaymentDate>
+      <inv:PayableAmount currency="NOK">420.00</inv:PayableAmount>
+      <inv:AccountNo type="IBAN">AccountNo</inv:AccountNo>
+      <inv:BankName>BankName</inv:BankName>
+      <inv:BankAddress1>BankAddress1</inv:BankAddress1>
+      <inv:BankPostCode>BankPostCode</inv:BankPostCode>
+      <inv:BankPostOffice>BankPostOffice</inv:BankPostOffice>
+      <inv:BankCountry>BankCountry</inv:BankCountry>
+      <inv:BankCountryCode>NO</inv:BankCountryCode>
+      <inv:BIC>NOR12345</inv:BIC>
+      <inv:BankCode>NO1234</inv:BankCode>
+    </inv:PaymentInstruction>
+  </inv:PaymentInstructions>
+  <inv:MoraInterestRate>8</inv:MoraInterestRate>
+  <inv:ReminderCharge>35</inv:ReminderCharge>
+  <inv:BonusBasis>100.00</inv:BonusBasis>
+  <inv:VAT code="Medium">
+    <inv:VATAmount>7.03</inv:VATAmount>
+    <inv:VATPercentage>13</inv:VATPercentage>
+    <inv:VATBasisAmount>54.1</inv:VATBasisAmount>
+  </inv:VAT>
+  <inv:VAT code="High">
+    <inv:VATAmount>71.69</inv:VATAmount>
+    <inv:VATPercentage>25</inv:VATPercentage>
+    <inv:VATBasisAmount>286.74</inv:VATBasisAmount>
+  </inv:VAT>
+  <inv:Currency>
+    <inv:CurrencyCode>NOK</inv:CurrencyCode>
+    <inv:ExchangeRate>1</inv:ExchangeRate>
+    <inv:RateUnit>1</inv:RateUnit>
+    <inv:RateDate>2014-04-09</inv:RateDate>
+    <inv:BaseCurrencyCode>NOK</inv:BaseCurrencyCode>
+  </inv:Currency>
+  <inv:Supplier>
+    <inv:Name>Name</inv:Name>
+    <inv:Address1>Address1</inv:Address1>
+    <inv:PostCode>PostCode</inv:PostCode>
+    <inv:PostOffice>PostOffice</inv:PostOffice>
+    <inv:Country>NORGE</inv:Country>
+    <inv:CountryCode>NO</inv:CountryCode>
+    <inv:EANLocationNo>7044168754129</inv:EANLocationNo>
+    <inv:CompanyNo>NO333333333</inv:CompanyNo>
+    <inv:VATRegNo>NO333333333MVA</inv:VATRegNo>
+    <inv:VATScheme schemeID="VAT">VATScheme</inv:VATScheme>
+    <inv:WWWAddress>WWWAddress</inv:WWWAddress>
+    <inv:EmailAddress>EmailAddress</inv:EmailAddress>
+    <inv:BankAccount>16071726693</inv:BankAccount>
+    <inv:BankGiroAccount>3173341</inv:BankGiroAccount>
+    <inv:PostAccount>5546789</inv:PostAccount>
+    <inv:IBAN>IBAN</inv:IBAN>
+    <inv:SWIFT>NOR12345</inv:SWIFT>
+    <inv:BankCode>NO1234</inv:BankCode>
+    <inv:Phone>Phone</inv:Phone>
+    <inv:Mobile>Mobile</inv:Mobile>
+    <inv:Fax>Fax</inv:Fax>
+    <inv:ContactPerson>
+      <inv:ID>2</inv:ID>
+      <inv:Name>Name</inv:Name>
+      <inv:Phone>Phone</inv:Phone>
+      <inv:Fax>Fax</inv:Fax>
+      <inv:EmailAddress>EmailAddress</inv:EmailAddress>
+    </inv:ContactPerson>
+    <inv:LegalEntity>
+      <inv:RegistrationName>RegistrationName</inv:RegistrationName>
+      <inv:RegistrationAgency>Foretaksregisteret</inv:RegistrationAgency>
+      <inv:CompanyNo>NO333333333</inv:CompanyNo>
+      <inv:City>NITTEDAL</inv:City>
+      <inv:Country>NORGE</inv:Country>
+      <inv:CountryCode>NO</inv:CountryCode>
+    </inv:LegalEntity>
+  </inv:Supplier>
+  <inv:Invoicee>
+    <inv:ID>11000</inv:ID>
+    <inv:Name>Name</inv:Name>
+    <inv:Address1>Address1</inv:Address1>
+    <inv:PostCode>PostCode</inv:PostCode>
+    <inv:PostOffice>PostOffice</inv:PostOffice>
+    <inv:Country>NORGE</inv:Country>
+    <inv:CountryCode>NO</inv:CountryCode>
+    <inv:Reference>Reference</inv:Reference>
+    <inv:EANLocationNo>7055987456562</inv:EANLocationNo>
+    <inv:CompanyNo>NO333333333</inv:CompanyNo>
+    <inv:VATRegNo>NO333333333MVA</inv:VATRegNo>
+    <inv:VATScheme schemeID="VAT">VATScheme</inv:VATScheme>
+    <inv:WWWAddress>WWWAddress</inv:WWWAddress>
+    <inv:EmailAddress>EmailAddress</inv:EmailAddress>
+    <inv:BankAccount>15020011000</inv:BankAccount>
+    <inv:PostAccount>50771311000</inv:PostAccount>
+    <inv:Phone>22 33 32 41</inv:Phone>
+    <inv:Fax>Fax</inv:Fax>
+    <inv:ContactPerson>
+      <inv:ID>16</inv:ID>
+      <inv:Name>Name</inv:Name>
+    </inv:ContactPerson>
+  </inv:Invoicee>
+  <inv:InvoiceDocuments>
+    <inv:Links>
+      <inv:Link type="Invoice" mimeCode="application/pdf">http://example.org/file.pdf</inv:Link>
+    </inv:Links>
+    <inv:Attachments>
+      <inv:Attachment fileName="Invoice_971008_20140409-115205.pdf" type="Invoice" mimeCode="application/pdf">dGVzdGZpbGU=</inv:Attachment>
+    </inv:Attachments>
+  </inv:InvoiceDocuments>
+  <inv:InvoiceFreeText>
+    <inv:Text>Text</inv:Text>
+    <inv:Text>Text</inv:Text>
+    <inv:Text>Text</inv:Text>
+    <inv:Text>Text</inv:Text>
+  </inv:InvoiceFreeText>
+  <inv:OrderInfo>
+    <inv:SuppliersOrderNo>102391</inv:SuppliersOrderNo>
+    <inv:SuppliersReference>SuppliersReference</inv:SuppliersReference>
+    <inv:BuyersReference>BuyersReference</inv:BuyersReference>
+    <inv:OrderReceivedBy>OrderReceivedBy</inv:OrderReceivedBy>
+    <inv:OrderDate>2014-04-09</inv:OrderDate>
+    <inv:DeliveryDate>2014-04-09</inv:DeliveryDate>
+    <inv:DeliveryTerms>FOB</inv:DeliveryTerms>
+    <inv:DeliveryMethod>Bil</inv:DeliveryMethod>
+    <inv:PointOfSales id="1">PointOfSales</inv:PointOfSales>
+    <inv:Department id="1">Department</inv:Department>
+    <inv:Employee id="2">Employee</inv:Employee>
+    <inv:TotalGoodsGross>99.0</inv:TotalGoodsGross>
+    <inv:TotalGoodsExclDuty>100.00</inv:TotalGoodsExclDuty>
+    <inv:TotalSpecialDuty>10.00</inv:TotalSpecialDuty>
+    <inv:TotalDutyAmount>10.00</inv:TotalDutyAmount>
+    <inv:TotalGoodsInclDuty>109.00</inv:TotalGoodsInclDuty>
+    <inv:TotalLinesRoundingAmount>1.00</inv:TotalLinesRoundingAmount>
+    <inv:TotalGoods>110.00</inv:TotalGoods>
+    <inv:HandlingCharge>50</inv:HandlingCharge>
+    <inv:Freight>167.64</inv:Freight>
+    <inv:TotalAmountExclVAT>327.64</inv:TotalAmountExclVAT>
+    <inv:TotalVATAmount>74.71</inv:TotalVATAmount>
+    <inv:TotalVATBasisAmount>327.64</inv:TotalVATBasisAmount>
+    <inv:TotalVATFreeAmount>0.00</inv:TotalVATFreeAmount>
+    <inv:TotalAmountInclVAT>402.35</inv:TotalAmountInclVAT>
+    <inv:Buyer>
+      <inv:ID>10255</inv:ID>
+      <inv:Name>Name</inv:Name>
+      <inv:Address1>Address1</inv:Address1>
+      <inv:PostCode>PostCode</inv:PostCode>
+      <inv:PostOffice>PostOffice</inv:PostOffice>
+      <inv:Country>NORGE</inv:Country>
+      <inv:CountryCode>NO</inv:CountryCode>
+      <inv:Reference>Reference</inv:Reference>
+      <inv:EANLocationNo>7055987456321</inv:EANLocationNo>
+      <inv:CompanyNo>NO333333333</inv:CompanyNo>
+      <inv:VATRegNo>NO333333333MVA</inv:VATRegNo>
+      <inv:VATScheme schemeID="VAT">Merverdiavgift</inv:VATScheme>
+      <inv:WWWAddress>WWWAddress</inv:WWWAddress>
+      <inv:EmailAddress>EmailAddress</inv:EmailAddress>
+      <inv:BankAccount>BankAccount</inv:BankAccount>
+      <inv:PostAccount>PostAccount</inv:PostAccount>
+      <inv:Phone>Phone</inv:Phone>
+      <inv:Fax>Fax</inv:Fax>
+    </inv:Buyer>
+    <inv:DeliveryParty>
+      <inv:ID>10255</inv:ID>
+      <inv:Name>Name</inv:Name>
+      <inv:Address1>Address1</inv:Address1>
+      <inv:Address2>Address2</inv:Address2>
+      <inv:PostCode>PostCode</inv:PostCode>
+      <inv:PostOffice>PostOffice</inv:PostOffice>
+      <inv:Country>NORGE</inv:Country>
+      <inv:CountryCode>NO</inv:CountryCode>
+      <inv:Reference>Reference</inv:Reference>
+      <inv:EANLocationNo>7055987456774</inv:EANLocationNo>
+      <inv:CompanyNo>NO333333333</inv:CompanyNo>
+      <inv:VATRegNo>NO333333333MVA</inv:VATRegNo>
+      <inv:Phone>69 25 69 69</inv:Phone>
+      <inv:Fax>Fax</inv:Fax>
+    </inv:DeliveryParty>
+    <inv:ShipFrom>
+      <inv:ID>1</inv:ID>
+      <inv:Name>Name</inv:Name>
+      <inv:Country>NORGE</inv:Country>
+      <inv:CountryCode>NO</inv:CountryCode>
+      <inv:CompanyNo>NO333333333</inv:CompanyNo>
+      <inv:VATRegNo>NO333333333MVA</inv:VATRegNo>
+      <inv:WWWAddress>WWWAddress</inv:WWWAddress>
+    </inv:ShipFrom>
+    <inv:Carrier>
+      <inv:ID>1</inv:ID>
+      <inv:Name>Name</inv:Name>
+      <inv:Address1>Address1</inv:Address1>
+      <inv:PostCode>PostCode</inv:PostCode>
+      <inv:PostOffice>PostOffice</inv:PostOffice>
+      <inv:Country>NORGE</inv:Country>
+      <inv:CountryCode>NO</inv:CountryCode>
+      <inv:Reference>Reference</inv:Reference>
+      <inv:EANLocationNo>7064885445698</inv:EANLocationNo>
+      <inv:CompanyNo>NO333333333</inv:CompanyNo>
+      <inv:VATRegNo>NO333333333MVA</inv:VATRegNo>
+      <inv:WWWAddress>WWWAddress</inv:WWWAddress>
+      <inv:EmailAddress>EmailAddress</inv:EmailAddress>
+      <inv:Phone>22458747</inv:Phone>
+    </inv:Carrier>
+    <inv:DetailLines>
+      <inv:DetailLine>
+        <inv:InvoiceDetailLineNo>1</inv:InvoiceDetailLineNo>
+        <inv:SuppliersOrderLineNo>1</inv:SuppliersOrderLineNo>
+        <inv:Item>
+          <inv:SuppliersArticleNo>34-160</inv:SuppliersArticleNo>
+          <inv:SuppliersDescription>SuppliersDescription</inv:SuppliersDescription>
+          <inv:FreeText>FreeText</inv:FreeText>
+          <inv:EANArticleNo>7044165644085</inv:EANArticleNo>
+          <inv:PLUNumber>1234</inv:PLUNumber>
+          <inv:AltArticleNo>13134</inv:AltArticleNo>
+          <inv:MainGroup id="7">MainGroup</inv:MainGroup>
+          <inv:SubGroup id="101">SubGroup</inv:SubGroup>
+          <inv:Product id="4">Product</inv:Product>
+          <inv:Department id="1">Department</inv:Department>
+          <inv:Employee id="2">Employee</inv:Employee>
+          <inv:UnitText type="F" code="EA">STK</inv:UnitText>
+          <inv:UnitFactor>1.00</inv:UnitFactor>
+          <inv:UnitQtyOrdered>1</inv:UnitQtyOrdered>
+          <inv:UnitQtyDelivered>1</inv:UnitQtyDelivered>
+          <inv:UnitQtyRemainder>0.00</inv:UnitQtyRemainder>
+          <inv:UnitGrossPrice>49</inv:UnitGrossPrice>
+          <inv:UnitNetPrice>49</inv:UnitNetPrice>
+          <inv:AlternativeUnits>
+            <inv:AlternativeUnit>
+              <inv:UnitText>10PK</inv:UnitText>
+              <inv:UnitCode>TP</inv:UnitCode>
+              <inv:UnitType>D</inv:UnitType>
+              <inv:UnitFactor>10</inv:UnitFactor>
+              <inv:UnitQtyOrdered>0.1</inv:UnitQtyOrdered>
+              <inv:UnitQtyDelivered>0.1</inv:UnitQtyDelivered>
+              <inv:UnitQtyRemainder>0.00</inv:UnitQtyRemainder>
+              <inv:UnitGrossPrice>490</inv:UnitGrossPrice>
+              <inv:UnitNetPrice>490</inv:UnitNetPrice>
+              <inv:EANArticleNo>EANArticleNo</inv:EANArticleNo>
+            </inv:AlternativeUnit>
+          </inv:AlternativeUnits>
+          <inv:AmountType>Normal</inv:AmountType>
+          <inv:GrossAmount>49</inv:GrossAmount>
+          <inv:NetAmountExclDuty>49</inv:NetAmountExclDuty>
+          <inv:NetAmountInclDuty>49</inv:NetAmountInclDuty>
+          <inv:LineRoundingAmount>1.00</inv:LineRoundingAmount>
+          <inv:NetAmount>50</inv:NetAmount>
+          <inv:VAT code="High">
+            <inv:VATAmount>12.5</inv:VATAmount>
+            <inv:VATPercentage>25</inv:VATPercentage>
+            <inv:VATBasisAmount>50</inv:VATBasisAmount>
+          </inv:VAT>
+          <inv:AmountInclVAT>62.5</inv:AmountInclVAT>
+          <inv:Measurement>
+            <inv:GrossWeight>2</inv:GrossWeight>
+            <inv:NettoWeight>2</inv:NettoWeight>
+          </inv:Measurement>
+        </inv:Item>
+      </inv:DetailLine>
+      <inv:DetailLine>
+        <inv:InvoiceDetailLineNo>2</inv:InvoiceDetailLineNo>
+        <inv:SuppliersOrderLineNo>2</inv:SuppliersOrderLineNo>
+        <inv:Item>
+          <inv:SuppliersArticleNo>77-7777</inv:SuppliersArticleNo>
+          <inv:SuppliersDescription>SuppliersDescription</inv:SuppliersDescription>
+          <inv:EANArticleNo>EANArticleNo</inv:EANArticleNo>
+          <inv:MainGroup id="11">MainGroup</inv:MainGroup>
+          <inv:Department id="1">Department</inv:Department>
+          <inv:Employee id="2">Employee</inv:Employee>
+          <inv:UnitText type="D" code="KG">KG</inv:UnitText>
+          <inv:UnitFactor>1.00</inv:UnitFactor>
+          <inv:UnitQtyOrdered>1</inv:UnitQtyOrdered>
+          <inv:UnitQtyDelivered>1</inv:UnitQtyDelivered>
+          <inv:UnitQtyRemainder>0.00</inv:UnitQtyRemainder>
+          <inv:UnitGrossPrice>50</inv:UnitGrossPrice>
+          <inv:UnitNetPrice>60</inv:UnitNetPrice>
+          <inv:RecommendedRetailPrice>199</inv:RecommendedRetailPrice>
+          <inv:AlternativeUnits>
+            <inv:AlternativeUnit>
+              <inv:UnitText>STK</inv:UnitText>
+              <inv:UnitCode>PA</inv:UnitCode>
+              <inv:UnitType>F</inv:UnitType>
+              <inv:UnitFactor>2.23</inv:UnitFactor>
+              <inv:UnitQtyOrdered>0.448430</inv:UnitQtyOrdered>
+              <inv:UnitQtyDelivered>0.448430</inv:UnitQtyDelivered>
+              <inv:UnitQtyRemainder>0.00</inv:UnitQtyRemainder>
+              <inv:UnitGrossPrice>111.500123</inv:UnitGrossPrice>
+              <inv:UnitNetPrice>133.800147</inv:UnitNetPrice>
+              <inv:EANArticleNo>7044166543218</inv:EANArticleNo>
+              <inv:Measurements>
+                <inv:GrossWeight>2.23</inv:GrossWeight>
+                <inv:NettoWeight>2.23</inv:NettoWeight>
+                <inv:Volume>0.0025</inv:Volume>
+                <inv:Height>0.1</inv:Height>
+                <inv:Width>0.1</inv:Width>
+                <inv:Length>0.25</inv:Length>
+              </inv:Measurements>
+            </inv:AlternativeUnit>
+          </inv:AlternativeUnits>
+          <inv:AmountType>Normal</inv:AmountType>
+          <inv:GrossAmount>50</inv:GrossAmount>
+          <inv:NetAmountExclDuty>50</inv:NetAmountExclDuty>
+          <inv:SpecialDuty id="2">
+            <inv:DutyRate>10</inv:DutyRate>
+            <inv:DutyAmount>10</inv:DutyAmount>
+            <inv:DutyBasis>1</inv:DutyBasis>
+            <inv:DutyBasisType>Quantity</inv:DutyBasisType>
+            <inv:DutyBasisUnit>KG</inv:DutyBasisUnit>
+          </inv:SpecialDuty>
+          <inv:TotalDuty id="z">
+            <inv:DutyRate>10.00</inv:DutyRate>
+            <inv:DutyAmount>10.00</inv:DutyAmount>
+            <inv:DutyBasis>1</inv:DutyBasis>
+            <inv:DutyBasisType>Quantity</inv:DutyBasisType>
+            <inv:DutyBasisUnit>KG</inv:DutyBasisUnit>
+          </inv:TotalDuty>
+          <inv:NetAmountInclDuty>60</inv:NetAmountInclDuty>
+          <inv:LineRoundingAmount>0.00</inv:LineRoundingAmount>
+          <inv:NetAmount>60</inv:NetAmount>
+          <inv:VAT code="Medium">
+            <inv:VATAmount>7.8</inv:VATAmount>
+            <inv:VATPercentage>13</inv:VATPercentage>
+            <inv:VATBasisAmount>60</inv:VATBasisAmount>
+          </inv:VAT>
+          <inv:AmountInclVAT>67.8</inv:AmountInclVAT>
+          <inv:Measurement>
+            <inv:GrossWeight>1</inv:GrossWeight>
+            <inv:NettoWeight>1</inv:NettoWeight>
+            <inv:Volume>0.006</inv:Volume>
+            <inv:Height>0.2</inv:Height>
+            <inv:Width>0.12</inv:Width>
+            <inv:Length>0.25</inv:Length>
+          </inv:Measurement>
+        </inv:Item>
+      </inv:DetailLine>
+    </inv:DetailLines>
+    <inv:DetailLineCount>2</inv:DetailLineCount>
+    <inv:DetailLinesTotalQuantity>2.0</inv:DetailLinesTotalQuantity>
+  </inv:OrderInfo>
+  <inv:InvoiceLineCount>2</inv:InvoiceLineCount>
+  <inv:InvoiceLinesTotalQuantity>2.0</inv:InvoiceLinesTotalQuantity>
+  <inv:UserDefined Name="SupplierCompanyNoSchemaName">Foretaksregisteret</inv:UserDefined>
+</inv:Invoice>

@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<Invoice xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+  <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+  <cbc:CustomizationID>urn:www.cenbii.eu:transaction:biitrns010:ver2.0:extended:urn:www.visma.com:vx:profile5:ver1.0</cbc:CustomizationID>
+  <cbc:ProfileID>urn:www.cenbii.eu:profile:bii05:ver2.0</cbc:ProfileID>
+  <cbc:ID>ID</cbc:ID>
+  <cbc:IssueDate>2017-02-21</cbc:IssueDate>
+  <cbc:InvoiceTypeCode listID="UNCL1001">380</cbc:InvoiceTypeCode>
+  <cbc:TaxPointDate>2017-02-21</cbc:TaxPointDate>
+  <cbc:DocumentCurrencyCode listID="ISO4217">NOK</cbc:DocumentCurrencyCode>
+  <cac:AdditionalDocumentReference>
+    <cbc:ID>ID</cbc:ID>
+    <cbc:DocumentType>DocumentType</cbc:DocumentType>
+  </cac:AdditionalDocumentReference>
+  <cac:AccountingSupplierParty>
+    <cac:Party>
+      <cbc:EndpointID schemeID="NO:ORGNR">333333333</cbc:EndpointID>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="NO:ORGNR">333333333</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name>Name</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:StreetName>StreetName</cbc:StreetName>
+        <cbc:AdditionalStreetName>AdditionalStreetName</cbc:AdditionalStreetName>
+        <cbc:CityName>CityName</cbc:CityName>
+        <cbc:PostalZone>PostalZone</cbc:PostalZone>
+        <cac:Country>
+          <cbc:IdentificationCode listID="ISO3166-1:Alpha2">NO</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyTaxScheme>
+        <cbc:CompanyID schemeID="NO:VAT">333333333MVA</cbc:CompanyID>
+        <cbc:ExemptionReason>ExemptionReason</cbc:ExemptionReason>
+        <cac:TaxScheme>
+          <cbc:ID schemeID="UN/ECE 5153">VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:PartyTaxScheme>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>RegistrationName</cbc:RegistrationName>
+        <cbc:CompanyID schemeID="NO:ORGNR">333333333</cbc:CompanyID>
+        <cac:RegistrationAddress>
+          <cbc:CityName>CityName</cbc:CityName>
+          <cac:Country>
+            <cbc:IdentificationCode listID="ISO3166-1:Alpha2">NO</cbc:IdentificationCode>
+          </cac:Country>
+        </cac:RegistrationAddress>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:ID>ID</cbc:ID>
+        <cbc:Name>Name</cbc:Name>
+        <cbc:Telephone>Telephone</cbc:Telephone>
+        <cbc:ElectronicMail>ElectronicMail</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cac:Party>
+      <cbc:EndpointID schemeID="NO:ORGNR">333333333</cbc:EndpointID>
+      <cac:PartyIdentification>
+        <cbc:ID schemeID="NO:ORGNR">333333333</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name>Name</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:StreetName>StreetName</cbc:StreetName>
+        <cbc:AdditionalStreetName>AdditionalStreetName</cbc:AdditionalStreetName>
+        <cbc:CityName>CityName</cbc:CityName>
+        <cbc:PostalZone>PostalZone</cbc:PostalZone>
+        <cac:Country>
+          <cbc:IdentificationCode listID="ISO3166-1:Alpha2">NO</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>RegistrationName</cbc:RegistrationName>
+        <cbc:CompanyID schemeID="NO:ORGNR">333333333</cbc:CompanyID>
+      </cac:PartyLegalEntity>
+      <cac:Contact>
+        <cbc:ID>ID</cbc:ID>
+        <cbc:Name>Name</cbc:Name>
+        <cbc:Telephone>Telephone</cbc:Telephone>
+        <cbc:ElectronicMail>ElectronicMail</cbc:ElectronicMail>
+      </cac:Contact>
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:Delivery>
+    <cbc:ActualDeliveryDate>2017-02-21</cbc:ActualDeliveryDate>
+    <cac:DeliveryLocation>
+      <cac:Address>
+        <cbc:StreetName>StreetName</cbc:StreetName>
+        <cbc:AdditionalStreetName>AdditionalStreetName</cbc:AdditionalStreetName>
+        <cbc:CityName>CityName</cbc:CityName>
+        <cbc:PostalZone>PostalZone</cbc:PostalZone>
+        <cac:Country>
+          <cbc:IdentificationCode listID="ISO3166-1:Alpha2">NO</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:Address>
+    </cac:DeliveryLocation>
+  </cac:Delivery>
+  <cac:PaymentMeans>
+    <cbc:PaymentMeansCode listID="UNCL4461">31</cbc:PaymentMeansCode>
+    <cbc:PaymentDueDate>2017-03-08</cbc:PaymentDueDate>
+    <cbc:PaymentID>PaymentID</cbc:PaymentID>
+    <cac:PayeeFinancialAccount>
+      <cbc:ID schemeID="LOCAL">ID</cbc:ID>
+    </cac:PayeeFinancialAccount>
+  </cac:PaymentMeans>
+  <cac:PaymentMeans>
+    <cbc:PaymentMeansCode listID="UNCL4461">31</cbc:PaymentMeansCode>
+    <cbc:PaymentDueDate>2017-03-08</cbc:PaymentDueDate>
+    <cbc:PaymentID>PaymentID</cbc:PaymentID>
+    <cac:PayeeFinancialAccount>
+      <cbc:ID schemeID="IBAN">ID</cbc:ID>
+      <cac:FinancialInstitutionBranch>
+        <cac:FinancialInstitution>
+          <cbc:ID schemeID="BIC">ID</cbc:ID>
+        </cac:FinancialInstitution>
+      </cac:FinancialInstitutionBranch>
+    </cac:PayeeFinancialAccount>
+  </cac:PaymentMeans>
+  <cac:PaymentTerms>
+    <cbc:Note>Note</cbc:Note>
+  </cac:PaymentTerms>
+  <cac:AllowanceCharge>
+    <cbc:ChargeIndicator>true</cbc:ChargeIndicator>
+    <cbc:AllowanceChargeReason>freight</cbc:AllowanceChargeReason>
+    <cbc:Amount currencyID="NOK">150</cbc:Amount>
+    <cac:TaxCategory>
+      <cbc:ID schemeID="UNCL5305">S</cbc:ID>
+      <cbc:Percent>25</cbc:Percent>
+      <cac:TaxScheme>
+        <cbc:ID schemeID="UN/ECE 5153">VAT</cbc:ID>
+      </cac:TaxScheme>
+    </cac:TaxCategory>
+  </cac:AllowanceCharge>
+  <cac:AllowanceCharge>
+    <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+    <cbc:AllowanceChargeReason>AllowanceChargeReason</cbc:AllowanceChargeReason>
+    <cbc:Amount currencyID="NOK">95</cbc:Amount>
+    <cac:TaxCategory>
+      <cbc:ID schemeID="UNCL5305">E</cbc:ID>
+      <cbc:Percent>0</cbc:Percent>
+      <cbc:TaxExemptionReason>Exempt from tax</cbc:TaxExemptionReason>
+      <cac:TaxScheme>
+        <cbc:ID schemeID="UN/ECE 5153">VAT</cbc:ID>
+      </cac:TaxScheme>
+    </cac:TaxCategory>
+  </cac:AllowanceCharge>
+  <cac:AllowanceCharge>
+    <cbc:ChargeIndicator>true</cbc:ChargeIndicator>
+    <cbc:AllowanceChargeReason>AllowanceChargeReason</cbc:AllowanceChargeReason>
+    <cbc:Amount currencyID="NOK">50</cbc:Amount>
+    <cac:TaxCategory>
+      <cbc:ID schemeID="UNCL5305">S</cbc:ID>
+      <cbc:Percent>25</cbc:Percent>
+      <cac:TaxScheme>
+        <cbc:ID schemeID="UN/ECE 5153">VAT</cbc:ID>
+      </cac:TaxScheme>
+    </cac:TaxCategory>
+  </cac:AllowanceCharge>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="NOK">501.25</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="NOK">2005</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="NOK">501.25</cbc:TaxAmount>
+      <cbc:TransactionCurrencyTaxAmount currencyID="NOK">501.25</cbc:TransactionCurrencyTaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID schemeID="UNCL5305">S</cbc:ID>
+        <cbc:Percent>25</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID schemeID="UN/ECE 5153">VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+    <cac:TaxSubtotal>
+      <cbc:TaxableAmount currencyID="NOK">30</cbc:TaxableAmount>
+      <cbc:TaxAmount currencyID="NOK">0</cbc:TaxAmount>
+      <cbc:TransactionCurrencyTaxAmount currencyID="NOK">0</cbc:TransactionCurrencyTaxAmount>
+      <cac:TaxCategory>
+        <cbc:ID schemeID="UNCL5305">E</cbc:ID>
+        <cbc:Percent>0</cbc:Percent>
+        <cbc:TaxExemptionReason>Exempt from tax</cbc:TaxExemptionReason>
+        <cac:TaxScheme>
+          <cbc:ID schemeID="UN/ECE 5153">VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:LineExtensionAmount currencyID="NOK">1930</cbc:LineExtensionAmount>
+    <cbc:TaxExclusiveAmount currencyID="NOK">2035</cbc:TaxExclusiveAmount>
+    <cbc:TaxInclusiveAmount currencyID="NOK">2536.25</cbc:TaxInclusiveAmount>
+    <cbc:AllowanceTotalAmount currencyID="NOK">95</cbc:AllowanceTotalAmount>
+    <cbc:ChargeTotalAmount currencyID="NOK">200</cbc:ChargeTotalAmount>
+    <cbc:PrepaidAmount currencyID="NOK">0</cbc:PrepaidAmount>
+    <cbc:PayableRoundingAmount currencyID="NOK">0</cbc:PayableRoundingAmount>
+    <cbc:PayableAmount currencyID="NOK">2536.25</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:InvoiceLine>
+    <cbc:ID>ID</cbc:ID>
+    <cbc:Note>Note</cbc:Note>
+    <cbc:InvoicedQuantity unitCode="ZZ" unitCodeListID="UNECERec20">1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="NOK">900</cbc:LineExtensionAmount>
+    <cbc:AccountingCost>AccountingCost</cbc:AccountingCost>
+    <cac:AllowanceCharge>
+      <cbc:ChargeIndicator>false</cbc:ChargeIndicator>
+      <cbc:AllowanceChargeReason>AllowanceChargeReason</cbc:AllowanceChargeReason>
+      <cbc:Amount currencyID="NOK">100</cbc:Amount>
+    </cac:AllowanceCharge>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="NOK">225</cbc:TaxAmount>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Name>Name</cbc:Name>
+      <cac:SellersItemIdentification>
+        <cbc:ID>ID</cbc:ID>
+      </cac:SellersItemIdentification>
+      <cac:StandardItemIdentification>
+        <cbc:ID schemeID="GTIN" schemeAgencyID="9">ID</cbc:ID>
+      </cac:StandardItemIdentification>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeID="UNCL5305">S</cbc:ID>
+        <cbc:Percent>25</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID schemeID="UN/ECE 5153">VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="NOK">1000</cbc:PriceAmount>
+      <cbc:BaseQuantity>1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>ID</cbc:ID>
+    <cbc:Note>Note</cbc:Note>
+    <cbc:InvoicedQuantity unitCode="ZZ" unitCodeListID="UNECERec20">1</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="NOK">1030</cbc:LineExtensionAmount>
+    <cbc:AccountingCost>AccountingCost</cbc:AccountingCost>
+    <cac:AllowanceCharge>
+      <cbc:ChargeIndicator>true</cbc:ChargeIndicator>
+      <cbc:AllowanceChargeReason>AllowanceChargeReason</cbc:AllowanceChargeReason>
+      <cbc:Amount currencyID="NOK">30</cbc:Amount>
+    </cac:AllowanceCharge>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="NOK">250</cbc:TaxAmount>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Name>Name</cbc:Name>
+      <cac:SellersItemIdentification>
+        <cbc:ID>ID</cbc:ID>
+      </cac:SellersItemIdentification>
+      <cac:StandardItemIdentification>
+        <cbc:ID schemeID="GTIN" schemeAgencyID="9">ID</cbc:ID>
+      </cac:StandardItemIdentification>
+      <cac:ClassifiedTaxCategory>
+        <cbc:ID schemeID="UNCL5305">S</cbc:ID>
+        <cbc:Percent>25</cbc:Percent>
+        <cac:TaxScheme>
+          <cbc:ID schemeID="UN/ECE 5153">VAT</cbc:ID>
+        </cac:TaxScheme>
+      </cac:ClassifiedTaxCategory>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="NOK">1000</cbc:PriceAmount>
+      <cbc:BaseQuantity>1</cbc:BaseQuantity>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>

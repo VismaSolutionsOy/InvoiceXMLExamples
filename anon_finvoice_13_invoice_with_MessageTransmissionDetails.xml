@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<?xml-stylesheet href="Finvoice.xsl" type="text/xsl"?>
+<Finvoice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.3" xsi:noNamespaceSchemaLocation="Finvoice.xsd">
+  <MessageTransmissionDetails>
+    <MessageSenderDetails>
+      <FromIdentifier>003712345678</FromIdentifier>
+      <FromIntermediator>003721291126</FromIntermediator>
+    </MessageSenderDetails>
+    <MessageReceiverDetails>
+      <ToIdentifier>003712345678</ToIdentifier>
+      <ToIntermediator>003721291126</ToIntermediator>
+    </MessageReceiverDetails>
+    <MessageDetails>
+      <MessageIdentifier>123</MessageIdentifier>
+      <MessageTimeStamp>2020-06-15T12:17:50</MessageTimeStamp>
+      <RefToMessageIdentifier>456</RefToMessageIdentifier>
+    </MessageDetails>
+  </MessageTransmissionDetails>
+  <SellerPartyDetails>
+    <SellerPartyIdentifier>1234567-8</SellerPartyIdentifier>
+    <SellerPartyIdentifierUrlText/>
+    <SellerOrganisationName>SellerOrganisationName</SellerOrganisationName>
+    <SellerOrganisationName>SellerOrganisationName</SellerOrganisationName>
+    <SellerOrganisationDepartment/>
+    <SellerOrganisationDepartment/>
+    <SellerOrganisationTaxCode>FI12345678</SellerOrganisationTaxCode>
+    <SellerOrganisationTaxCodeUrlText>http://europa.eu.int/comm/taxation_customs/vies/fi/vieshome.htm</SellerOrganisationTaxCodeUrlText>
+    <SellerPostalAddressDetails>
+      <SellerStreetName>SellerStreetName</SellerStreetName>
+      <SellerTownName>SellerTownName</SellerTownName>
+      <SellerPostCodeIdentifier>00100</SellerPostCodeIdentifier>
+      <CountryCode>FI</CountryCode>
+      <CountryName>CountryName</CountryName>
+      <SellerPostOfficeBoxIdentifier/>
+    </SellerPostalAddressDetails>
+  </SellerPartyDetails>
+  <SellerOrganisationUnitNumber>SellerOrganisationUnitNumber</SellerOrganisationUnitNumber>
+  <SellerSiteCode/>
+  <SellerContactPersonName>SellerContactPersonName</SellerContactPersonName>
+  <SellerCommunicationDetails>
+    <SellerPhoneNumberIdentifier>SellerPhoneNumberIdentifier</SellerPhoneNumberIdentifier>
+    <SellerEmailaddressIdentifier>SellerEmailaddressIdentifier</SellerEmailaddressIdentifier>
+  </SellerCommunicationDetails>
+  <SellerInformationDetails>
+    <SellerVatRegistrationDate Format="CCYYMMDD">20200101</SellerVatRegistrationDate>
+    <SellerPhoneNumber>SellerPhoneNumber</SellerPhoneNumber>
+    <SellerFaxNumber>SellerFaxNumber</SellerFaxNumber>
+    <SellerCommonEmailaddressIdentifier>SellerCommonEmailaddressIdentifier</SellerCommonEmailaddressIdentifier>
+    <SellerWebaddressIdentifier>SellerWebaddressIdentifier</SellerWebaddressIdentifier>
+    <SellerFreeText>SellerFreeText</SellerFreeText>
+    <SellerAccountDetails>
+      <SellerAccountID IdentificationSchemeName="IBAN">SellerAccountID</SellerAccountID>
+      <SellerBic IdentificationSchemeName="BIC">BANKFIHH</SellerBic>
+    </SellerAccountDetails>
+    <InvoiceRecipientDetails>
+      <InvoiceRecipientAddress>InvoiceRecipientAddress</InvoiceRecipientAddress>
+      <InvoiceRecipientIntermediatorAddress>BANKFIXX</InvoiceRecipientIntermediatorAddress>
+    </InvoiceRecipientDetails>
+  </SellerInformationDetails>
+  <InvoiceSenderPartyDetails>
+    <InvoiceSenderPartyIdentifier>1234567-8</InvoiceSenderPartyIdentifier>
+    <InvoiceSenderOrganisationName>InvoiceSenderOrganisationName</InvoiceSenderOrganisationName>
+    <InvoiceSenderOrganisationTaxCode>FI12345678</InvoiceSenderOrganisationTaxCode>
+  </InvoiceSenderPartyDetails>
+  <InvoiceRecipientPartyDetails>
+    <InvoiceRecipientPartyIdentifier>1234567-8</InvoiceRecipientPartyIdentifier>
+    <InvoiceRecipientOrganisationName>InvoiceRecipientOrganisationName</InvoiceRecipientOrganisationName>
+    <InvoiceRecipientOrganisationName>InvoiceRecipientOrganisationName</InvoiceRecipientOrganisationName>
+    <InvoiceRecipientOrganisationTaxCode>FI12345678</InvoiceRecipientOrganisationTaxCode>
+    <InvoiceRecipientPostalAddressDetails>
+      <InvoiceRecipientStreetName>InvoiceRecipientStreetName</InvoiceRecipientStreetName>
+      <InvoiceRecipientTownName>InvoiceRecipientTownName</InvoiceRecipientTownName>
+      <InvoiceRecipientPostCodeIdentifier>InvoiceRecipientPostCodeIdentifier</InvoiceRecipientPostCodeIdentifier>
+      <CountryCode>FI</CountryCode>
+      <CountryName>CountryName</CountryName>
+      <InvoiceRecipientPostOfficeBoxIdentifier/>
+    </InvoiceRecipientPostalAddressDetails>
+  </InvoiceRecipientPartyDetails>
+  <InvoiceRecipientOrganisationUnitNumber/>
+  <InvoiceRecipientSiteCode/>
+  <InvoiceRecipientContactPersonName/>
+  <InvoiceRecipientContactPersonFunction/>
+  <InvoiceRecipientContactPersonDepartment/>
+  <InvoiceRecipientLanguageCode>FI</InvoiceRecipientLanguageCode>
+  <BuyerPartyDetails>
+    <BuyerPartyIdentifier>1234567-8</BuyerPartyIdentifier>
+    <BuyerOrganisationName>BuyerOrganisationName</BuyerOrganisationName>
+    <BuyerOrganisationDepartment/>
+    <BuyerOrganisationDepartment/>
+    <BuyerOrganisationTaxCode>FI12345678</BuyerOrganisationTaxCode>
+    <BuyerPostalAddressDetails>
+      <BuyerStreetName>BuyerStreetName</BuyerStreetName>
+      <BuyerTownName>BuyerTownName</BuyerTownName>
+      <BuyerPostCodeIdentifier>BuyerPostCodeIdentifier</BuyerPostCodeIdentifier>
+      <CountryCode>FI</CountryCode>
+      <CountryName>CountryName</CountryName>
+      <BuyerPostOfficeBoxIdentifier/>
+    </BuyerPostalAddressDetails>
+  </BuyerPartyDetails>
+  <BuyerOrganisationUnitNumber/>
+  <BuyerSiteCode/>
+  <BuyerContactPersonName>BuyerContactPersonName</BuyerContactPersonName>
+  <BuyerCommunicationDetails>
+    <BuyerPhoneNumberIdentifier>BuyerPhoneNumberIdentifier</BuyerPhoneNumberIdentifier>
+    <BuyerEmailaddressIdentifier>BuyerEmailaddressIdentifier</BuyerEmailaddressIdentifier>
+  </BuyerCommunicationDetails>
+  <DeliveryPartyDetails>
+    <DeliveryPartyIdentifier/>
+    <DeliveryOrganisationName>DeliveryOrganisationName</DeliveryOrganisationName>
+    <DeliveryPostalAddressDetails>
+      <DeliveryStreetName>DeliveryStreetName</DeliveryStreetName>
+      <DeliveryTownName>DeliveryTownName</DeliveryTownName>
+      <DeliveryPostCodeIdentifier>DeliveryPostCodeIdentifier</DeliveryPostCodeIdentifier>
+      <CountryCode>FI</CountryCode>
+      <CountryName>CountryName</CountryName>
+      <DeliveryPostofficeBoxIdentifier/>
+    </DeliveryPostalAddressDetails>
+  </DeliveryPartyDetails>
+  <DeliveryOrganisationUnitNumber/>
+  <DeliverySiteCode/>
+  <DeliveryDetails>
+    <DeliveryDate Format="CCYYMMDD">20200615</DeliveryDate>
+    <DeliveryPeriodDetails>
+      <StartDate Format="CCYYMMDD">20200601</StartDate>
+      <EndDate Format="CCYYMMDD">20200630</EndDate>
+    </DeliveryPeriodDetails>
+    <DeliveryMethodText>DeliveryMethodText</DeliveryMethodText>
+    <DeliveryTermsText>DeliveryTermsText</DeliveryTermsText>
+    <TerminalAddressText>TerminalAddressText</TerminalAddressText>
+    <WaybillIdentifier>WaybillIdentifier</WaybillIdentifier>
+    <WaybillTypeCode>WaybillTypeCode</WaybillTypeCode>
+    <ClearanceIdentifier/>
+    <DeliveryNoteIdentifier>DeliveryNoteIdentifier</DeliveryNoteIdentifier>
+    <DelivererIdentifier>DelivererIdentifier</DelivererIdentifier>
+    <DelivererName>DelivererName</DelivererName>
+    <DelivererName>DelivererName</DelivererName>
+    <DelivererCountryCode>FI</DelivererCountryCode>
+    <DelivererCountryName>FINLAND</DelivererCountryName>
+    <ManufacturerIdentifier>ManufacturerIdentifier</ManufacturerIdentifier>
+    <ManufacturerName>ManufacturerName</ManufacturerName>
+    <ManufacturerCountryCode>DE</ManufacturerCountryCode>
+    <ManufacturerCountryName>Germany</ManufacturerCountryName>
+    <ManufacturerOrderIdentifier/>
+  </DeliveryDetails>
+  <AnyPartyDetails>
+    <AnyPartyText AnyPartyCode="AnyPartyCode"/>
+    <AnyPartyIdentifier>1234567-8</AnyPartyIdentifier>
+    <AnyPartyOrganisationName>AnyPartyOrganisationName</AnyPartyOrganisationName>
+    <AnyPartyOrganisationDepartment/>
+    <AnyPartyOrganisationTaxCode>FI12345678</AnyPartyOrganisationTaxCode>
+    <AnyPartyPostalAddressDetails>
+      <AnyPartyStreetName>AnyPartyStreetName</AnyPartyStreetName>
+      <AnyPartyTownName>AnyPartyTownName</AnyPartyTownName>
+      <AnyPartyPostCodeIdentifier>AnyPartyPostCodeIdentifier</AnyPartyPostCodeIdentifier>
+      <CountryCode>FI</CountryCode>
+      <CountryName>CountryName</CountryName>
+      <AnyPartyPostOfficeBoxIdentifier/>
+    </AnyPartyPostalAddressDetails>
+    <AnyPartyOrganisationUnitNumber/>
+    <AnyPartySiteCode/>
+  </AnyPartyDetails>
+  <InvoiceDetails>
+    <InvoiceTypeCode>INV01</InvoiceTypeCode>
+    <InvoiceTypeText>Invoice</InvoiceTypeText>
+    <OriginCode>Original</OriginCode>
+    <OriginText/>
+    <InvoiceNumber>2013000018</InvoiceNumber>
+    <InvoiceDate Format="CCYYMMDD">20200624</InvoiceDate>
+    <OriginalInvoiceNumber>12340</OriginalInvoiceNumber>
+    <InvoicingPeriodStartDate Format="CCYYMMDD">20200601</InvoicingPeriodStartDate>
+    <InvoicingPeriodEndDate Format="CCYYMMDD">20200630</InvoicingPeriodEndDate>
+    <SellerReferenceIdentifier>SellerReferenceIdentifier</SellerReferenceIdentifier>
+    <SellerReferenceIdentifierUrlText/>
+    <BuyersSellerIdentifier>BuyersSellerIdentifier</BuyersSellerIdentifier>
+    <SellersBuyerIdentifier>SellersBuyerIdentifier</SellersBuyerIdentifier>
+    <OrderIdentifier>OrderIdentifier</OrderIdentifier>
+    <OrderIdentifierUrlText/>
+    <OrderDate Format="CCYYMMDD">20130725</OrderDate>
+    <OrdererName>OrdererName</OrdererName>
+    <SalesPersonName>SalesPersonName</SalesPersonName>
+    <OrderConfirmationDate Format="CCYYMMDD">20130728</OrderConfirmationDate>
+    <AgreementIdentifier>785</AgreementIdentifier>
+    <AgreementDate Format="CCYYMMDD">20130701</AgreementDate>
+    <BuyerReferenceIdentifier>BuyerReferenceIdentifier</BuyerReferenceIdentifier>
+    <ProjectReferenceIdentifier/>
+    <InvoiceTotalVatExcludedAmount AmountCurrencyIdentifier="EUR">133,50</InvoiceTotalVatExcludedAmount>
+    <InvoiceTotalVatAmount AmountCurrencyIdentifier="EUR">32,04</InvoiceTotalVatAmount>
+    <InvoiceTotalVatIncludedAmount AmountCurrencyIdentifier="EUR">165,54</InvoiceTotalVatIncludedAmount>
+    <ShortProposedAccountIdentifier>1234</ShortProposedAccountIdentifier>
+    <NormalProposedAccountIdentifier>1234</NormalProposedAccountIdentifier>
+    <ProposedAccountText>ProposedAccountText</ProposedAccountText>
+    <AccountDimensionText>AccountDimensionText</AccountDimensionText>
+    <SellerAccountText>SellerAccountText</SellerAccountText>
+    <VatSpecificationDetails>
+      <VatBaseAmount AmountCurrencyIdentifier="EUR">133,50</VatBaseAmount>
+      <VatRatePercent>24</VatRatePercent>
+      <VatRateAmount AmountCurrencyIdentifier="EUR">32,04</VatRateAmount>
+    </VatSpecificationDetails>
+    <InvoiceFreeText>InvoiceFreeText</InvoiceFreeText>
+    <InvoiceVatFreeText/>
+    <PaymentTermsDetails>
+      <PaymentTermsFreeText>PaymentTermsFreeText</PaymentTermsFreeText>
+      <PaymentTermsFreeText>PaymentTermsFreeText</PaymentTermsFreeText>
+      <InvoiceDueDate Format="CCYYMMDD">20130828</InvoiceDueDate>
+      <CashDiscountDate Format="CCYYMMDD">20130819</CashDiscountDate>
+      <CashDiscountBaseAmount AmountCurrencyIdentifier="EUR">165,54</CashDiscountBaseAmount>
+      <CashDiscountPercent>2</CashDiscountPercent>
+      <CashDiscountAmount AmountCurrencyIdentifier="EUR">3,31</CashDiscountAmount>
+      <CashDiscountExcludingVatAmount AmountCurrencyIdentifier="EUR">2,67</CashDiscountExcludingVatAmount>
+      <CashDiscountVatDetails>
+        <CashDiscountVatPercent>24,0</CashDiscountVatPercent>
+        <CashDiscountVatAmount AmountCurrencyIdentifier="EUR">0,79</CashDiscountVatAmount>
+      </CashDiscountVatDetails>
+      <ReducedInvoiceVatIncludedAmount AmountCurrencyIdentifier="EUR">162,23</ReducedInvoiceVatIncludedAmount>
+      <PaymentOverDueFineDetails>
+        <PaymentOverDueFineFreeText>PaymentOverDueFineFreeText</PaymentOverDueFineFreeText>
+        <PaymentOverDueFinePercent>7,5</PaymentOverDueFinePercent>
+      </PaymentOverDueFineDetails>
+    </PaymentTermsDetails>
+  </InvoiceDetails>
+  <PaymentStatusDetails>
+    <PaymentStatusCode>NOTPAID</PaymentStatusCode>
+    <PaymentMethodText>PaymentMethodText</PaymentMethodText>
+  </PaymentStatusDetails>
+  <PartialPaymentDetails>
+    <PaidAmount AmountCurrencyIdentifier="EUR">80,00</PaidAmount>
+    <PaidVatExcludedAmount AmountCurrencyIdentifier="EUR">0,00</PaidVatExcludedAmount>
+    <UnPaidAmount AmountCurrencyIdentifier="EUR">14,09</UnPaidAmount>
+    <UnPaidVatExcludedAmount AmountCurrencyIdentifier="EUR">0,00</UnPaidVatExcludedAmount>
+    <PartialPaymentVatIncludedAmount AmountCurrencyIdentifier="EUR">14,09</PartialPaymentVatIncludedAmount>
+    <PartialPaymentVatExcludedAmount AmountCurrencyIdentifier="EUR">0,00</PartialPaymentVatExcludedAmount>
+    <PartialPaymentDueDate Format="CCYYMMDD">20091224</PartialPaymentDueDate>
+    <PartialPaymentReferenceIdentifier>7686868698</PartialPaymentReferenceIdentifier>
+  </PartialPaymentDetails>
+  <FactoringAgreementDetails>
+    <FactoringAgreementIdentifier>229873</FactoringAgreementIdentifier>
+    <TransmissionListIdentifier>221</TransmissionListIdentifier>
+    <EndorsementClauseCode>F</EndorsementClauseCode>
+    <FactoringTypeCode>123</FactoringTypeCode>
+    <FactoringFreeText>FactoringFreeText</FactoringFreeText>
+    <FactoringFreeText>FactoringFreeText</FactoringFreeText>
+    <FactoringFreeText>FactoringFreeText</FactoringFreeText>
+    <FactoringFreeText>FactoringFreeText</FactoringFreeText>
+    <FactoringFreeText>FactoringFreeText</FactoringFreeText>
+    <FactoringFreeText>FactoringFreeText</FactoringFreeText>
+    <FactoringFreeText>FactoringFreeText</FactoringFreeText>
+    <FactoringFreeText>FactoringFreeText</FactoringFreeText>
+    <FactoringPartyIdentifier/>
+    <FactoringPartyName>FactoringPartyName</FactoringPartyName>
+    <FactoringPartyPostalAddressDetails>
+      <FactoringPartyStreetName>FactoringPartyStreetName</FactoringPartyStreetName>
+      <FactoringPartyTownName>FactoringPartyTownName</FactoringPartyTownName>
+      <FactoringPartyPostCodeIdentifier>FactoringPartyPostCodeIdentifier</FactoringPartyPostCodeIdentifier>
+      <CountryCode>FI</CountryCode>
+      <CountryName>CountryName</CountryName>
+      <FactoringPartyPostOfficeBoxIdentifier/>
+    </FactoringPartyPostalAddressDetails>
+  </FactoringAgreementDetails>
+  <VirtualBankBarcode/>
+  <InvoiceRow>
+    <RowPositionIdentifier>1</RowPositionIdentifier>
+    <RowFreeText>RowFreeText</RowFreeText>
+    <RowFreeText>RowFreeText</RowFreeText>
+    <RowFreeText>RowFreeText</RowFreeText>
+    <RowFreeText>RowFreeText</RowFreeText>
+    <RowFreeText>RowFreeText</RowFreeText>
+    <RowFreeText>RowFreeText</RowFreeText>
+    <RowFreeText>RowFreeText</RowFreeText>
+    <RowFreeText>RowFreeText</RowFreeText>
+  </InvoiceRow>
+  <InvoiceRow>
+    <ArticleIdentifier>ArticleIdentifier</ArticleIdentifier>
+    <ArticleName>ArticleName</ArticleName>
+    <DeliveredQuantity>89</DeliveredQuantity>
+    <OrderedQuantity>100</OrderedQuantity>
+    <InvoicedQuantity>89</InvoicedQuantity>
+    <UnitPriceAmount AmountCurrencyIdentifier="EUR">1,50</UnitPriceAmount>
+    <RowOrderPositionIdentifier>1</RowOrderPositionIdentifier>
+    <RowSalesPersonName>RowSalesPersonName</RowSalesPersonName>
+    <RowProjectReferenceIdentifier>123</RowProjectReferenceIdentifier>
+    <RowDeliveryDetails>
+      <RowTerminalAddressText/>
+      <RowWaybillIdentifier>777</RowWaybillIdentifier>
+      <RowWaybillTypeCode>11</RowWaybillTypeCode>
+      <RowClearanceIdentifier/>
+      <RowDeliveryNoteIdentifier/>
+      <RowDelivererIdentifier>1234567-8</RowDelivererIdentifier>
+      <RowDelivererName>RowDelivererName</RowDelivererName>
+      <RowDelivererName>RowDelivererName</RowDelivererName>
+      <RowDelivererCountryCode>FI</RowDelivererCountryCode>
+      <RowDelivererCountryName>RowDelivererCountryName</RowDelivererCountryName>
+      <RowModeOfTransportIdentifier/>
+      <RowManufacturerIdentifier>RowManufacturerIdentifier</RowManufacturerIdentifier>
+      <RowManufacturerName>AKG International</RowManufacturerName>
+      <RowManufacturerName/>
+      <RowManufacturerCountryCode>DE</RowManufacturerCountryCode>
+      <RowManufacturerCountryName>RowManufacturerCountryName</RowManufacturerCountryName>
+      <RowManufacturerOrderIdentifier/>
+    </RowDeliveryDetails>
+    <RowShortProposedAccountIdentifier>400</RowShortProposedAccountIdentifier>
+    <RowNormalProposedAccountIdentifier>4000</RowNormalProposedAccountIdentifier>
+    <RowProposedAccountText>RowProposedAccountText</RowProposedAccountText>
+    <RowFreeText>RowFreeText</RowFreeText>
+    <RowVatAmount AmountCurrencyIdentifier="EUR">32,04</RowVatAmount>
+    <RowVatExcludedAmount AmountCurrencyIdentifier="EUR">133,50</RowVatExcludedAmount>
+  </InvoiceRow>
+  <InvoiceRow>
+    <RowFreeText>RowFreeText</RowFreeText>
+    <RowFreeText>RowFreeText</RowFreeText>
+    <RowFreeText>RowFreeText</RowFreeText>
+    <RowFreeText>RowFreeText</RowFreeText>
+  </InvoiceRow>
+  <InvoiceRow>
+    <SubInvoiceRow>
+      <SubRowFreeText>SubRowFreeText</SubRowFreeText>
+    </SubInvoiceRow>
+  </InvoiceRow>
+  <InvoiceRow>
+    <SubInvoiceRow>
+      <SubRowFreeText>SubRowFreeText</SubRowFreeText>
+    </SubInvoiceRow>
+  </InvoiceRow>
+  <SpecificationDetails>
+    <SpecificationFreeText>SpecificationFreeText</SpecificationFreeText>
+    <SpecificationFreeText>SpecificationFreeText</SpecificationFreeText>
+    <SpecificationFreeText>SpecificationFreeText</SpecificationFreeText>
+  </SpecificationDetails>
+  <EpiDetails>
+    <EpiIdentificationDetails>
+      <EpiDate Format="CCYYMMDD">20200624</EpiDate>
+      <EpiReference>0</EpiReference>
+    </EpiIdentificationDetails>
+    <EpiPartyDetails>
+      <EpiBfiPartyDetails>
+        <EpiBfiIdentifier IdentificationSchemeName="BIC">BANKFIHH</EpiBfiIdentifier>
+      </EpiBfiPartyDetails>
+      <EpiBeneficiaryPartyDetails>
+        <EpiNameAddressDetails>EpiNameAddressDetails</EpiNameAddressDetails>
+        <EpiBei>123456789</EpiBei>
+        <EpiAccountID IdentificationSchemeName="IBAN">EpiAccountID</EpiAccountID>
+      </EpiBeneficiaryPartyDetails>
+    </EpiPartyDetails>
+    <EpiPaymentInstructionDetails>
+      <EpiPaymentInstructionId>EpiPaymentInstructionId</EpiPaymentInstructionId>
+      <EpiInstructionCode/>
+      <EpiRemittanceInfoIdentifier IdentificationSchemeName="ISO">RF471234567890</EpiRemittanceInfoIdentifier>
+      <EpiInstructedAmount AmountCurrencyIdentifier="EUR">165,54</EpiInstructedAmount>
+      <EpiCharge ChargeOption="SLEV"/>
+      <EpiDateOptionDate Format="CCYYMMDD">20200624</EpiDateOptionDate>
+    </EpiPaymentInstructionDetails>
+  </EpiDetails>
+  <InvoiceUrlNameText>LIITE 1 (Nettitilasto)</InvoiceUrlNameText>
+  <InvoiceUrlNameText>LIITE 2 (Pankkiyhdistys)</InvoiceUrlNameText>
+  <InvoiceUrlText>http://www.pankkiyhdistys.fi/verkkolasku/nettitilasto.pdf</InvoiceUrlText>
+  <InvoiceUrlText>http://www.pankkiyhdistys.fi/verkkolasku</InvoiceUrlText>
+  <StorageUrlText/>
+  <LayOutIdentifier/>
+  <InvoiceSegmentIdentifier/>
+  <ControlStampText/>
+  <AcceptanceStampText/>
+  <OriginalInvoiceFormat/>
+</Finvoice>

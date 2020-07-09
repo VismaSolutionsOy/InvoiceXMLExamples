@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<?xml-stylesheet type="text/xsl" href="Finvoice.xsl"?>
+<Finvoice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="3.0" xsi:noNamespaceSchemaLocation="Finvoice3.0.xsd">
+  <MessageTransmissionDetails>
+    <MessageSenderDetails>
+      <FromIdentifier SchemeID="0037">003712345678</FromIdentifier>
+      <FromIntermediator>003721291126</FromIntermediator>
+    </MessageSenderDetails>
+    <MessageReceiverDetails>
+      <ToIdentifier SchemeID="0037">003712345678</ToIdentifier>
+      <ToIntermediator>003721291126</ToIntermediator>
+    </MessageReceiverDetails>
+    <MessageDetails>
+      <MessageIdentifier>FINVINV-8650</MessageIdentifier>
+      <MessageTimeStamp>2019-01-21T14:09:21+02:00</MessageTimeStamp>
+      <ImplementationCode>XX</ImplementationCode>
+    </MessageDetails>
+  </MessageTransmissionDetails>
+  <SellerPartyDetails>
+    <SellerPartyIdentifier>1234567-8</SellerPartyIdentifier>
+    <SellerOrganisationName>SellerOrganisationName</SellerOrganisationName>
+    <SellerOrganisationName>SellerOrganisationName</SellerOrganisationName>
+    <SellerOrganisationTradingName>SellerOrganisationTradingName</SellerOrganisationTradingName>
+    <SellerOrganisationTaxCode>FI12345678</SellerOrganisationTaxCode>
+    <SellerPostalAddressDetails>
+      <SellerStreetName>SellerStreetName</SellerStreetName>
+      <SellerTownName>SellerTownName</SellerTownName>
+      <SellerPostCodeIdentifier>SellerPostCodeIdentifier</SellerPostCodeIdentifier>
+      <SellerCountrySubdivision>SellerCountrySubdivision</SellerCountrySubdivision>
+      <CountryCode>FI</CountryCode>
+      <CountryName>CountryName</CountryName>
+    </SellerPostalAddressDetails>
+  </SellerPartyDetails>
+  <SellerOrganisationUnitNumber>SellerOrganisationUnitNumber</SellerOrganisationUnitNumber>
+  <SellerContactPersonName>SellerContactPersonName</SellerContactPersonName>
+  <SellerCommunicationDetails>
+    <SellerPhoneNumberIdentifier>SellerPhoneNumberIdentifier</SellerPhoneNumberIdentifier>
+    <SellerEmailaddressIdentifier>SellerEmailaddressIdentifier</SellerEmailaddressIdentifier>
+  </SellerCommunicationDetails>
+  <SellerInformationDetails>
+    <SellerHomeTownName>SellerHomeTownName</SellerHomeTownName>
+    <SellerPhoneNumber>SellerPhoneNumber</SellerPhoneNumber>
+    <SellerCommonEmailaddressIdentifier>SellerCommonEmailaddressIdentifier</SellerCommonEmailaddressIdentifier>
+    <SellerWebaddressIdentifier>SellerWebaddressIdentifier</SellerWebaddressIdentifier>
+    <SellerAccountDetails>
+      <SellerAccountID IdentificationSchemeName="IBAN">SellerAccountID</SellerAccountID>
+      <SellerBic IdentificationSchemeName="BIC">NDEAFIHH</SellerBic>
+      <SellerAccountName>SellerAccountName</SellerAccountName>
+    </SellerAccountDetails>
+  </SellerInformationDetails>
+  <InvoiceRecipientCommunicationDetails>
+    <InvoiceRecipientEmailaddressIdentifier>InvoiceRecipientEmailaddressIdentifier</InvoiceRecipientEmailaddressIdentifier>
+  </InvoiceRecipientCommunicationDetails>
+  <BuyerPartyDetails>
+    <BuyerPartyIdentifier>1234567-8</BuyerPartyIdentifier>
+    <BuyerOrganisationName>BuyerOrganisationName</BuyerOrganisationName>
+    <BuyerOrganisationName>BuyerOrganisationName</BuyerOrganisationName>
+    <BuyerOrganisationTradingName>BuyerOrganisationTradingName</BuyerOrganisationTradingName>
+    <BuyerOrganisationTaxCode>FI12345678</BuyerOrganisationTaxCode>
+    <BuyerPostalAddressDetails>
+      <BuyerStreetName>BuyerStreetName</BuyerStreetName>
+      <BuyerTownName>BuyerTownName</BuyerTownName>
+      <BuyerPostCodeIdentifier>BuyerPostCodeIdentifier</BuyerPostCodeIdentifier>
+      <CountryCode>FI</CountryCode>
+      <CountryName>CountryName</CountryName>
+    </BuyerPostalAddressDetails>
+  </BuyerPartyDetails>
+  <BuyerCommunicationDetails>
+    <BuyerEmailaddressIdentifier>BuyerEmailaddressIdentifier</BuyerEmailaddressIdentifier>
+  </BuyerCommunicationDetails>
+  <InvoiceDetails>
+    <InvoiceTypeCode CodeListAgencyIdentifier="SPY">INV01</InvoiceTypeCode>
+    <InvoiceTypeCodeUN>380</InvoiceTypeCodeUN>
+    <InvoiceTypeText>LASKU</InvoiceTypeText>
+    <OriginCode>Original</OriginCode>
+    <InvoiceNumber>9190100001</InvoiceNumber>
+    <InvoiceDate Format="CCYYMMDD">20190121</InvoiceDate>
+    <OrderIdentifier>OrderIdentifier</OrderIdentifier>
+    <RowsTotalVatExcludedAmount AmountCurrencyIdentifier="EUR">900,00</RowsTotalVatExcludedAmount>
+    <InvoiceTotalVatExcludedAmount AmountCurrencyIdentifier="EUR">900,00</InvoiceTotalVatExcludedAmount>
+    <InvoiceTotalVatAmount AmountCurrencyIdentifier="EUR">216,00</InvoiceTotalVatAmount>
+    <InvoiceTotalVatIncludedAmount AmountCurrencyIdentifier="EUR">1116,00</InvoiceTotalVatIncludedAmount>
+    <InvoicePaidAmount AmountCurrencyIdentifier="EUR">10,00</InvoicePaidAmount>
+    <VatSpecificationDetails>
+      <VatBaseAmount AmountCurrencyIdentifier="EUR">900,00</VatBaseAmount>
+      <VatRatePercent>24</VatRatePercent>
+      <VatCode>S</VatCode>
+      <VatRateAmount AmountCurrencyIdentifier="EUR">216,00</VatRateAmount>
+      <VatFreeText>VatFreeText</VatFreeText>
+      <VatFreeText>VatFreeText</VatFreeText>
+    </VatSpecificationDetails>
+    <InvoiceFreeText>InvoiceFreeText</InvoiceFreeText>
+    <InvoiceFreeText>InvoiceFreeText</InvoiceFreeText>
+    <InvoiceFreeText>InvoiceFreeText</InvoiceFreeText>
+    <PaymentTermsDetails>
+      <PaymentTermsFreeText>PaymentTermsFreeText</PaymentTermsFreeText>
+      <FreeText>
+        <Value>Value</Value>
+      </FreeText>
+      <InvoiceDueDate Format="CCYYMMDD">20190128</InvoiceDueDate>
+    </PaymentTermsDetails>
+    <DiscountDetails>
+      <FreeText>FreeText</FreeText>
+      <ReasonCode>65</ReasonCode>
+      <Amount AmountCurrencyIdentifier="NOK">100,00</Amount>
+      <VatCategoryCode>S</VatCategoryCode>
+      <VatRatePercent>24,0</VatRatePercent>
+    </DiscountDetails>
+    <ChargeDetails>
+      <ReasonText>ReasonText</ReasonText>
+      <ReasonCode>FC</ReasonCode>
+      <Percent>50,00</Percent>
+      <Amount AmountCurrencyIdentifier="NOK">100,00</Amount>
+      <BaseAmount AmountCurrencyIdentifier="NOK">200,00</BaseAmount>
+      <VatCategoryCode>S</VatCategoryCode>
+      <VatRatePercent>24,0</VatRatePercent>
+    </ChargeDetails>
+    <TenderReference>TenderReference</TenderReference>
+  </InvoiceDetails>
+  <VirtualBankBarcode>448195030000000100011160000000000000091901000011190128</VirtualBankBarcode>
+  <InvoiceRow>
+    <RowPositionIdentifier>1</RowPositionIdentifier>
+    <RowFreeText>RowFreeText</RowFreeText>
+    <RowFreeText>RowFreeText</RowFreeText>
+    <RowFreeText>RowFreeText</RowFreeText>
+    <RowFreeText>RowFreeText</RowFreeText>
+    <RowFreeText>RowFreeText</RowFreeText>
+    <RowFreeText>RowFreeText</RowFreeText>
+    <RowFreeText>RowFreeText</RowFreeText>
+    <RowFreeText>RowFreeText</RowFreeText>
+  </InvoiceRow>
+  <InvoiceRow>
+    <RowPositionIdentifier>1</RowPositionIdentifier>
+    <RowFreeText>RowFreeText</RowFreeText>
+  </InvoiceRow>
+  <InvoiceRow>
+    <ArticleIdentifier>ArticleIdentifier</ArticleIdentifier>
+    <ArticleGroupIdentifier SchemeID="STI">ArticleGroupIdentifier</ArticleGroupIdentifier>
+    <ArticleGroupIdentifier SchemeID="AA">ArticleGroupIdentifier</ArticleGroupIdentifier>
+    <ArticleName>ArticleName</ArticleName>
+    <ArticleDescription>ArticleDescription</ArticleDescription>
+    <EanCode>EanCode</EanCode>
+    <DeliveredQuantity QuantityUnitCode="KG" QuantityUnitCodeUN="XKG">1</DeliveredQuantity>
+    <InvoicedQuantity QuantityUnitCode="KG" QuantityUnitCodeUN="XKG">1</InvoicedQuantity>
+    <StartDate Format="CCYYMMDD">20190101</StartDate>
+    <EndDate Format="CCYYMMDD">20190131</EndDate>
+    <UnitPriceAmount AmountCurrencyIdentifier="EUR" QuantityUnitCodeUN="XKG">500,00</UnitPriceAmount>
+    <UnitPriceNetAmount AmountCurrencyIdentifier="EUR" QuantityUnitCodeUN="XKG">1000,00</UnitPriceNetAmount>
+    <UnitPriceBaseQuantity QuantityUnitCode="KG" QuantityUnitCodeUN="XKG">1</UnitPriceBaseQuantity>
+    <RowPositionIdentifier>2</RowPositionIdentifier>
+    <RowFreeText>RowFreeText</RowFreeText>
+    <RowDiscountPercent>50,000</RowDiscountPercent>
+    <RowChargeDetails>
+      <ReasonText>ReasonText</ReasonText>
+      <Percent>100,00</Percent>
+      <Amount AmountCurrencyIdentifier="NOK">500,00</Amount>
+      <BaseAmount AmountCurrencyIdentifier="EUR">250,00</BaseAmount>
+    </RowChargeDetails>
+    <RowChargeDetails>
+      <ReasonText>ReasonText</ReasonText>
+      <Amount AmountCurrencyIdentifier="NOK">150,00</Amount>
+    </RowChargeDetails>
+    <RowVatRatePercent>24</RowVatRatePercent>
+    <RowVatCode>S</RowVatCode>
+    <RowVatAmount AmountCurrencyIdentifier="EUR">216,00</RowVatAmount>
+    <RowVatExcludedAmount AmountCurrencyIdentifier="EUR">900,00</RowVatExcludedAmount>
+    <RowAmount AmountCurrencyIdentifier="EUR">1116,00</RowAmount>
+  </InvoiceRow>
+  <InvoiceRow>
+    <SubInvoiceRow>
+      <SubArticleIdentifier>SubArticleIdentifier</SubArticleIdentifier>
+      <SubArticleName>SubArticleName</SubArticleName>
+      <SubArticleDescription>SubArticleDescription</SubArticleDescription>
+      <SubEanCode>SubEanCode</SubEanCode>
+      <SubDeliveredQuantity QuantityUnitCode="KG" QuantityUnitCodeUN="XKG">1</SubDeliveredQuantity>
+      <SubInvoicedQuantity QuantityUnitCode="KG" QuantityUnitCodeUN="XKG">1</SubInvoicedQuantity>
+      <SubUnitPriceAmount AmountCurrencyIdentifier="EUR">1000,00</SubUnitPriceAmount>
+      <SubUnitPriceNetAmount AmountCurrencyIdentifier="EUR">1000,00</SubUnitPriceNetAmount>
+      <SubRowFreeText>SubRowFreeText</SubRowFreeText>
+      <SubRowDiscountPercent>10,000</SubRowDiscountPercent>
+      <SubRowVatRatePercent>24</SubRowVatRatePercent>
+      <SubRowVatCode>S</SubRowVatCode>
+      <SubRowVatAmount AmountCurrencyIdentifier="EUR">216,00</SubRowVatAmount>
+      <SubRowVatExcludedAmount AmountCurrencyIdentifier="EUR">900,00</SubRowVatExcludedAmount>
+      <SubRowAmount AmountCurrencyIdentifier="EUR">1116,00</SubRowAmount>
+    </SubInvoiceRow>
+  </InvoiceRow>
+  <EpiDetails>
+    <EpiIdentificationDetails>
+      <EpiDate Format="CCYYMMDD">20190121</EpiDate>
+      <EpiReference/>
+    </EpiIdentificationDetails>
+    <EpiPartyDetails>
+      <EpiBfiPartyDetails>
+        <EpiBfiIdentifier IdentificationSchemeName="BIC">NDEAFIHH</EpiBfiIdentifier>
+        <EpiBfiName>Nordea</EpiBfiName>
+      </EpiBfiPartyDetails>
+      <EpiBeneficiaryPartyDetails>
+        <EpiNameAddressDetails>EpiNameAddressDetails</EpiNameAddressDetails>
+        <EpiBei>123456789</EpiBei>
+        <EpiAccountID IdentificationSchemeName="IBAN">EpiAccountID</EpiAccountID>
+      </EpiBeneficiaryPartyDetails>
+    </EpiPartyDetails>
+    <EpiPaymentInstructionDetails>
+      <EpiRemittanceInfoIdentifier IdentificationSchemeName="SPY">91901000011</EpiRemittanceInfoIdentifier>
+      <EpiInstructedAmount AmountCurrencyIdentifier="EUR">1106,00</EpiInstructedAmount>
+      <EpiCharge ChargeOption="SHA">SHA</EpiCharge>
+      <EpiDateOptionDate Format="CCYYMMDD">20190128</EpiDateOptionDate>
+      <EpiPaymentMeansCode>58</EpiPaymentMeansCode>
+    </EpiPaymentInstructionDetails>
+  </EpiDetails>
+</Finvoice>
